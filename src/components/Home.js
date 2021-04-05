@@ -1,4 +1,5 @@
 import logo from '../img/linkin.png'
+import headShot from '../img/headShot.jpg'
 
 
 const Home = () => {
@@ -6,50 +7,83 @@ const Home = () => {
     return (
 
         <>
-            <div className="home">
 
-                <div >
+            {/********************************* Home, Image, BigName ************************************/}
+
+
+            <div className="homeSection" id='home'>
+
+                <div className='imgDiv'>
+                    <img src={headShot} alt="" className="imgMe" />
+                </div>
+
+                <div className='bigName'>
+                    <h1>LEWES
+                        <br />
+                    WALTON</h1>
+
+                    <h6>Junior Developer</h6>
+                </div>
+
+
+            </div>
+
+            {/*********************************  About ************************************/}
+
+            <div className="aboutSection" id='about'>
+
+                <div className="aboutImage">
                     <img src={logo} alt="" className="imgMe" />
                 </div>
 
-                {/* ******** Divider split ********** */}
+                <div className="aboutText">
 
-                <div className="about">
                     <h1>About</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Posuere ac ut consequat semper viverra nam libero justo laoreet. Gravida cum sociis natoque penatibus. Tempus quam pellentesque nec nam aliquam sem. Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Sit amet dictum sit amet justo donec. Tellus integer feugiat scelerisque varius. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Lorem ipsum dolor sit amet. Morbi blandit cursus risus at. Donec et odio pellentesque diam volutpat commodo sed. Amet volutpat consequat mauris nunc. Turpis massa tincidunt dui ut ornare. Dictumst quisque sagittis purus sit amet. Facilisis leo vel fringilla est ullamcorper eget nulla facilisi. Maecenas accumsan lacus vel facilisis volutpat est velit egestas. Ultrices vitae auctor eu augue ut. Pharetra diam sit amet nisl suscipit adipiscing bibendum. Proin libero nunc consequat interdum varius sit amet mattis vulputate.</p>
+
+                    <h2>Hi am <b>Lewes</b>, an inspiring Web Developer.</h2>
+
+                    <p>In 2020 I decided to take a huge leap and changed careers and start again as a Web Developer. The past year I have been studying with the Digital Career Institute (DCI) to achieve this goal. I am from the UK and have been living in Germany for the past few years.</p>
+
+                    <p>I have a background in construction and have completed an apprenticeship and worked as a welder for many years in several different countries. Beyond my welding experiences I also founded and managed my own cleaning/personal assistant company.</p>
+
+                    <p>With the DCI, we have covered how to become a <b>Full-Stack Web Developer</b> and have experimented with various different programming languages.</p>
+
                 </div>
+            </div>
+
+
+            {/*********************************  Skills ************************************/}
+
+            <div className="skillSection">
+
+                <h1>My Skills</h1>
 
             </div>
 
-            {/*********************************  New Section ************************************/}
 
-            <div className="projects">
 
-                <div className="skills">
-                    <h1>skills</h1>
-                </div>
+            {/*********************************  Projects ************************************/}
 
-                {/* ******** Divider split ********** */}
+            <div className="projectsSection" id='project'>
 
-                <div className="proj">
-                    <h1>Completed projects</h1>
-                </div>
+
+                <h1>Completed projects</h1>
+
 
             </div>
 
-            {/*********************************  New Section ************************************/}
 
-            <div className="contact">
+            {/*********************************  Contact ************************************/}
+
+            <div className="contactSection" id='contact'>
 
                 <div>
                     <h3>Mobile</h3>
                     <h3>Email</h3>
                     <h3>Fax</h3>
                 </div>
+
             </div>
-
-
-
         </>
     );
 }

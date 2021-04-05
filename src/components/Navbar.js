@@ -7,7 +7,7 @@ function Navbar() {
 
         <div className="navbar">
 
-            <Link to='/'><h1>Lewes Walton</h1></Link>
+            {/* <Link to='/'><h1>Lewes Walton</h1></Link> */}
 
             <div className="links">
 
@@ -16,6 +16,19 @@ function Navbar() {
                 <Link to="/projects">Projects</Link>
 
                 <Link to="/contact">Contact</Link>
+
+                {/* For Lanch */}
+
+
+                {/* <Link to="http://leweswalton.com#home"><h1>Lewes Walton</h1></Link>
+
+                <div className="links">
+
+                    <Link to="http://leweswalton.com#home">Home</Link>
+
+                    <Link to="http://leweswalton.com#projects">Projects</Link>
+
+                    <Link to="http://leweswalton.com#contact">Contact</Link> */}
 
             </div>
         </div>

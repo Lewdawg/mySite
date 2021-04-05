@@ -2,32 +2,19 @@
    margin: 0;
    padding: 0;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-   /* color: white;
-   background-color: black; */
  }
 
-/* Navbar */
-/* .navbar {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  max-width: 1300px;
-  margin: 0 auto;
-  border-bottom: 2px solid #f2f2f2;
 
-  background-color: #34626c;
-  color: #cfd3ce;
-} */
-
-/*Practice Navbar*/
+/********************** Navbar **************/
 .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
   max-width: 100%;
-  border-bottom: 2px solid #f2f2f2;
+  /* border-bottom: 2px solid #f2f2f2; */
 
+  position: sticky; 
+ 
   background-color: #34626c;
   color: #cfd3ce;
 }
@@ -42,72 +29,139 @@
 }
 
 .navbar a {
-  color: blue;
+  /* color: blue; */
+  color: #cfd3ce;
   margin-left: 16px;
   text-decoration: none;
   padding: 6px;
   font-size: 1.3rem;
 }
 
-/* Home */
-.home {
+
+/********************** Home **************/
+.homeSection {
 text-align: center;
-/* margin: 2rem; */
+
 display: flex;
 flex-direction: row;
 justify-content: space-around;
 
-/* color: white;
-background-color: black; */
+background-image: -webkit-linear-gradient(73deg, #839b97 50%, #fff 50%);
+
+color: #34626c;
 }
 
-.home div {
+.homeSection div {
   border: 2px solid red;
-  width: 50%;
   margin: 1rem;
   padding: 1rem;
 }
 
-/* My Image */
+.bigName {
+  font-size: 4rem;
+  text-align: left;
+  color: #cfd3ce;
+  width: 45%;
+}
+.bigName h1 {
+  padding-top: 10%;
+}
+
+
+/********************** My Image **************/
 .imgMe {
-  border-radius: 50%;
-  height: 80%;
-  margin-right: 30%;
-  border: 2px solid white;
+  margin-right: 20%;
+  border: 18px solid white;
+  height: 450px;
+  width: 300px;
 }
 
-.about {
-  font-size: 1.3rem;
+.imgDiv {
+  width: 40%;
 }
 
 
-/* Projects */
-.projects {
+
+/********************** About **************/
+.aboutSection {
+text-align: left;
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+background-image: -webkit-linear-gradient(253deg, #839b97 50%, #cfd3ce 50%);
+
+color: #34626c;
+}
+
+.aboutSection div {
+  border: 2px solid red;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.aboutImage {
+  width: 45%;
   text-align: center;
-  margin: 3rem 0;
+}
+
+.aboutText {
+  font-size: 1.3rem;
+  width: 50%;
+}
+
+.aboutText h1 {
+  text-decoration: underline;
+}
+
+.aboutText h1,h2,p {
+  padding: 1rem 2.2rem;
+}
+
+
+/********************** Skills ***************/
+
+.skillSection {
+  text-align: center;
+}
+
+
+/********************** Projects ***************/
+.projectsSection {
+  text-align: center;
+  /* margin: 3rem 0; */
+  padding: 3rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  color: #34626c;
+  background-color: #cfd3ce;
 }
 
-.projects div {
+
+.projectsSection div {
   border: 2px solid green;
   width: 98%;
   margin: 1rem 0;
   padding: 2rem 0;
 }
 
-/* Contact */
-.contact {
+
+/********************** Contact **************/
+.contactSection {
 text-align: center;
 /* margin: 1rem; */
 display: flex;
 flex-direction: row;
 justify-content: space-around;
 
+color: #34626c;
+background-color: #c6b497;
 }
 
-.contact div {
+.contactSection div {
 border: 2px solid orange;
 width: 100%;
 margin: 1rem;
