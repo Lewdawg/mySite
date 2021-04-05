@@ -1,5 +1,18 @@
-import logo from '../img/linkin.png'
+// import logo from '../img/linkin.png'
 import headShot from '../img/headShot.jpg'
+import arrows from '../img/arrows.png'
+
+// import js from '../img/js.svg'
+import html from '../img/html.png'
+import js from '../img/js.png'
+import express from '../img/express.png'
+import node from '../img/node.png'
+import react from '../img/react.png'
+
+import css from '../img/css.png'
+import mongo from '../img/mongo.png'
+import git from '../img/git.png'
+
 
 
 const Home = () => {
@@ -33,7 +46,7 @@ const Home = () => {
             <div className="aboutSection" id='about'>
 
                 <div className="aboutImage">
-                    <img src={logo} alt="" className="imgMe" />
+                    <img src={arrows} alt="" className="arrows" />
                 </div>
 
                 <div className="aboutText">
@@ -58,6 +71,22 @@ const Home = () => {
 
                 <h1>My Skills</h1>
 
+                <div className="logos">
+
+                    <img src={html} alt="" height='130px' />
+                    <img src={js} alt="" height='130px' />
+                    <img src={node} alt="" height='130px' />
+                    <img src={react} alt="" height='130px' />
+
+                </div>
+
+                <div className="logos">
+                    <img src={css} alt="" height='130px' />
+                    <img src={mongo} alt="" height='130px' />
+                    <img src={git} alt="" height='130px' />
+                    <img src={express} alt="" height='130px' />
+                </div>
+
             </div>
 
 
@@ -78,9 +107,9 @@ const Home = () => {
             <div className="contactSection" id='contact'>
 
                 <div>
-                    <h3>Mobile</h3>
-                    <h3>Email</h3>
-                    <h3>Fax</h3>
+                    <h2>Mobile</h2>
+                    <h2>Email</h2>
+                    <h2>Fax</h2>
                 </div>
 
             </div>
