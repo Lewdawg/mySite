@@ -1,4 +1,6 @@
-// import logo from '../img/linkin.png'
+import { Link } from 'react-router-dom'
+
+
 import headShot from '../img/headShot.jpg'
 import arrows from '../img/arrows.png'
 
@@ -17,7 +19,8 @@ import projects from '../data/projects.json'
 import laptop from '../img/laptop.png'
 
 //Contact
-
+import github from '../img/githubLogo.png'
+import linkedIn from '../img/linkin.png'
 
 
 
@@ -78,12 +81,10 @@ const Home = () => {
                 <h1>Skills</h1>
 
                 <div className="logos">
-
                     <img src={html} alt="" />
                     <img src={js} alt="" />
                     <img src={node} alt="" />
                     <img src={react} alt="" />
-
                 </div>
 
                 <div className="logos">
@@ -105,16 +106,40 @@ const Home = () => {
 
                 <div className="projectDivs">
 
-                    {projects.map(project => {
-                        return (
-                            <div className='card'>
-                                <h3>{project.title}</h3>
-                                {/* <h3>{project.laptop}</h3> */}
-                                <p>{project.description}</p>
-                                <p>{project.languages}</p>
-                            </div>
-                        )
-                    })}
+
+                    <div>
+                        <Link to=''>
+                            <img src={laptop} alt="" height='130px' />
+                        </Link>
+                        <h2>Todo App</h2>
+
+                        <p>Stylish todo App to keep track of tasks. Options to add,edit and remove tasks. Made with ReactJS.</p>
+                        <p>HTML5, CSS3, React</p>
+                    </div>
+
+                    <div>
+                        <img src={laptop} alt="" height='130px' />
+                        <h2>Smoothies</h2>
+
+                        <p>User's must log in to see smoothies recipes. Data is saved on external database. Authentication and Authorization used when login & signing up.</p>
+                        <p>HTML5, CSS3, Nodejs, Express, Mongodb, Mongoose</p>
+                    </div>
+
+                    <div>
+                        <img src={laptop} alt="" height='130px' />
+                        <h2>Laptop Shop</h2>
+
+                        <p>App where user, must have an account to see products. If no account can not access product information. Items can be added and viewed.</p>
+                        <p>HTML5, CSS3, React, Node.js, Express, Mongodb, Mongoose, Heroku</p>
+                    </div>
+
+                    <div>
+                        <img src={laptop} alt="" height='130px' />
+                        <h2>Personal Website</h2>
+
+                        <p>Personal website built from scratch.</p>
+                        <p>HTML5, CSS3, React</p>
+                    </div>
 
                 </div>
             </div>
@@ -124,11 +149,24 @@ const Home = () => {
 
             <div className="contactSection" id='contact'>
 
-                <div>
-                    <h2>Mobile</h2>
-                    <h2>Email</h2>
-                    <h2>Fax</h2>
+                <h1>Contact</h1>
+
+                <div className='container'>
+                    <div>
+                        <h2>+49(0) 174-178-7629</h2>
+                    </div>
+
+                    <div>
+                        <h2>Leweswalton@gmail.com</h2>
+                    </div>
+
+                    <div>
+                        <Link><img src={github} alt="" /></Link>
+                        <Link><img src={linkedIn} alt="" height='50px' /></Link>
+
+                    </div>
                 </div>
+
 
             </div>
         </>

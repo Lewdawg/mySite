@@ -95,7 +95,7 @@ color: #34626c;
 }
 
 .aboutSection div {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   margin: 1rem;
   padding: 1rem;
 }
@@ -151,20 +151,17 @@ justify-content: space-around;
 }
 
 .skillSection img {
-  height: 130px;
+  height: 150px;
   
 }
 
 
 /********************** Projects ***************/
 .projectsSection {
-  
-  height: 600px;
-
-  
-  background-image: -webkit-linear-gradient(253deg, #cfd3ce  50%, #c6b497 50%);
-  /* background-color: white; */
-  color: #34626c;
+  height: 720px;
+  background-image: -webkit-linear-gradient(249deg, #839b97  50%, #c6b497 50%);
+  color: white;
+  margin-bottom: 3rem;
 }
 
 .projectsSection h1 {
@@ -173,51 +170,63 @@ justify-content: space-around;
   text-decoration: underline;
 }
 
+.projectsSection div {
+  /* border: 2px solid green; */
+  margin: 1rem;
+  padding: 1rem ;
+}
+
 .projectDivs{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.projectsSection div {
-  /* border: 2px solid green; */
-  margin: 1rem;
-  padding: 2rem 0;
-}
-
-.card {
-  /* border: 2px solid green; */
-height: 300px;
+.projectDivs div {
+  text-align: center;
+  border: 2px solid white;
+  max-height: 80%;
   max-width: 15%;
+  font-size: 110%;
 
-  color: white;
-  background-color: #839b97;
+  box-shadow: 5px 5px 8px white;
 }
 
-.card h3 {
-  padding-left: 10px;
+.projectDivs img {
+  border: 2px solid white;
+  padding: 1rem;
 }
+
 
 
 /********************** Contact **************/
 .contactSection {
 text-align: center;
-/* margin: 1rem; */
-height: 300px;
+height: 400px;
 
-/* color: #cfd3ce ; */
-background-image: -webkit-linear-gradient(253deg, #c6b497  50%, #34626c 50%);
+color: white ;
+background-image: -webkit-linear-gradient(258deg, #c6b497  50%, #34626c 50%);
 /* background-color: #c6b497; */
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .contactSection div {
 /* border: 2px solid orange; */
 width: 100%;
 /* margin: 1rem; */
-padding: 7rem 0;
+padding: 3rem 0;
+}
 
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
+.contactSection h1 {
+  padding: 2rem;
+}
+
+.contactSection a {
+  padding: 1rem;
 }
