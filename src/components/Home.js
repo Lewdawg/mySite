@@ -20,7 +20,9 @@ import laptop from '../img/laptop.png'
 
 //Contact
 import github from '../img/githubLogo.png'
-import linkedIn from '../img/linkin.png'
+import linkedIn from '../img/linkedin.png'
+import envelope from '../img/envelope.png'
+import location from '../img/location.png'
 
 
 
@@ -153,17 +155,20 @@ const Home = () => {
 
                 <div className='container'>
                     <div>
-                        <h2>+49(0) 174-178-7629</h2>
+                        <h3>+49(0) 174-178-7629</h3>
                     </div>
 
                     <div>
-                        <h2>Leweswalton@gmail.com</h2>
-                    </div>
-
-                    <div>
+                        <Link><img src={envelope} alt="" height='50px' /></Link>
                         <Link><img src={github} alt="" /></Link>
                         <Link><img src={linkedIn} alt="" height='50px' /></Link>
 
+                        {/* <h2>Leweswalton@gmail.com</h2> */}
+                    </div>
+
+                    <div>
+                        <img src={location} alt="" height='70px' />
+                        <p>Leipzig, Germany</p>
                     </div>
                 </div>
 
