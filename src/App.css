@@ -10,10 +10,10 @@
   padding: 25px;
   display: flex;
   align-items: center;
-  max-width: 100%;
+  width: 100%;
   /* border-bottom: 2px solid #f2f2f2; */
 
-  position: sticky; 
+  position: fixed; 
  
   background-color: #34626c;
   color: #cfd3ce;
@@ -21,11 +21,7 @@
 
 
 .navbar .links {
-  margin-left: auto;
-}
-
-.navbar h1{
-  font-size: 2rem;
+  margin-left: 70%;
 }
 
 .navbar a {
@@ -33,22 +29,24 @@
   color: #cfd3ce;
   margin-left: 16px;
   text-decoration: none;
-  padding: 6px;
-  font-size: 1.3rem;
+  padding: 1rem;
+  font-size: 1.6rem;
 }
 
 
 /********************** Home **************/
 .homeSection {
 text-align: center;
-
+height: 800px;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
+align-items: center;
 
-background-image: -webkit-linear-gradient(73deg, #839b97 50%, #fff 50%);
+background-image: -webkit-linear-gradient(71deg, #839b97 50%, #fff 50%);
 
 color: #34626c;
+margin-bottom: 3rem;
 }
 
 .homeSection div {
@@ -58,7 +56,7 @@ color: #34626c;
 }
 
 .bigName {
-  font-size: 4rem;
+  font-size: 5rem;
   text-align: left;
   color: #cfd3ce;
   width: 45%;
@@ -72,8 +70,8 @@ color: #34626c;
 .imgMe {
   margin-right: 20%;
   border: 18px solid white;
-  height: 450px;
-  width: 300px;
+  height: 550px;
+  /* width: 300px; */
 }
 
 .imgDiv {
@@ -85,35 +83,36 @@ color: #34626c;
 /********************** About **************/
 .aboutSection {
 text-align: left;
-
+height: 800px;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
+align-items: center;
 
-background-image: -webkit-linear-gradient(253deg, #839b97 50%, #cfd3ce 50%);
+background-image: -webkit-linear-gradient(246.5deg, #839b97 50%, #cfd3ce 50%);
 
 color: #34626c;
 }
 
 .aboutSection div {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   margin: 1rem;
   padding: 1rem;
 }
 
 .aboutImage {
-  width: 45%;
+  height: 70%;
   text-align: center;
 }
 
 .arrows {
   margin-right: 20%;
-  height: 450px;
-  width: 300px;
+  height: 100%;
+  /* width: 300px; */
 }
 
 .aboutText {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   width: 50%;
 }
 
@@ -133,6 +132,7 @@ text-align: center;
 height: 600px;
 /* background-image: -webkit-linear-gradient(252deg, #cfd3ce 50%, #34626c 50%); */
 background-color: white;
+color: #839b97;
 }
 
 .skillSection h1 {
@@ -150,10 +150,10 @@ justify-content: space-around;
 
 }
 
-/* .logo img {
-  height: 100px;
+.skillSection img {
+  height: 130px;
   
-} */
+}
 
 
 /********************** Projects ***************/

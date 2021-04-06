@@ -2,16 +2,18 @@
 import headShot from '../img/headShot.jpg'
 import arrows from '../img/arrows.png'
 
-// import js from '../img/js.svg'
+//Skills 
 import html from '../img/html.png'
 import js from '../img/js.png'
 import express from '../img/express.png'
 import node from '../img/node.png'
 import react from '../img/react.png'
-
 import css from '../img/css.png'
 import mongo from '../img/mongo.png'
 import git from '../img/git.png'
+
+//Contact
+
 
 
 
@@ -73,18 +75,18 @@ const Home = () => {
 
                 <div className="logos">
 
-                    <img src={html} alt="" height='130px' />
-                    <img src={js} alt="" height='130px' />
-                    <img src={node} alt="" height='130px' />
-                    <img src={react} alt="" height='130px' />
+                    <img src={html} alt="" />
+                    <img src={js} alt="" />
+                    <img src={node} alt="" />
+                    <img src={react} alt="" />
 
                 </div>
 
                 <div className="logos">
-                    <img src={css} alt="" height='130px' />
-                    <img src={mongo} alt="" height='130px' />
-                    <img src={git} alt="" height='130px' />
-                    <img src={express} alt="" height='130px' />
+                    <img src={css} alt="" />
+                    <img src={mongo} alt="" />
+                    <img src={git} alt="" />
+                    <img src={express} alt="" />
                 </div>
 
             </div>
