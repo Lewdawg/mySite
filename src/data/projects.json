@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "image": "",
+        "title": "Todo App",
+        "description": "Stylish todo App to keep track of tasks. Options to add,edit and remove tasks. Made with ReactJS.",
+        "languages": "React, HTML5, CSS3"
+    },
+    {
+        "id": "2",
+        "image": "",
+        "title": "Smoothies",
+        "description": "User's must log in to see smoothies recipes. Data is saved on external database. Authentication and Authorization used when login & signing up.",
+        "languages": "HTML5, CSS3, Nodejs, Express, Mongodb, Mongoose"
+    },
+    {
+        "id": "3",
+        "image": "",
+        "title": "Computer Shop",
+        "description": "App where user, must have an account to see products. If no account can not access product information. Items can be added and viewed.",
+        "languages": "HTML5, CSS3, React, Node.js, Express, Mongodb, Mongoose, Heroku"
+    },
+    {
+        "id": "4",
+        "image": "",
+        "title": "Personal Website",
+        "description": "Personal website built from scratch.",
+        "languages": "HTML5, CSS3, React"
+    }
+]

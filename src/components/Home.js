@@ -12,6 +12,10 @@ import css from '../img/css.png'
 import mongo from '../img/mongo.png'
 import git from '../img/git.png'
 
+//Project
+import projects from '../data/projects.json'
+import laptop from '../img/laptop.png'
+
 //Contact
 
 
@@ -71,7 +75,7 @@ const Home = () => {
 
             <div className="skillSection">
 
-                <h1>My Skills</h1>
+                <h1>Skills</h1>
 
                 <div className="logos">
 
@@ -97,10 +101,22 @@ const Home = () => {
 
             <div className="projectsSection" id='project'>
 
+                <h1>Projects</h1>
 
-                <h1>Completed projects</h1>
+                <div className="projectDivs">
 
+                    {projects.map(project => {
+                        return (
+                            <div className='card'>
+                                <h3>{project.title}</h3>
+                                {/* <h3>{project.laptop}</h3> */}
+                                <p>{project.description}</p>
+                                <p>{project.languages}</p>
+                            </div>
+                        )
+                    })}
 
+                </div>
             </div>
 
 
