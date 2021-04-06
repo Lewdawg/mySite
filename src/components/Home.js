@@ -15,11 +15,12 @@ import mongo from '../img/mongo.png'
 import git from '../img/git.png'
 
 //Project
-import projects from '../data/projects.json'
+// import projects from '../data/projects.json'
 import laptop from '../img/laptop.png'
+import github from '../img/githubLogo.png'
 
 //Contact
-import github from '../img/githubLogo.png'
+
 import linkedIn from '../img/linkedin.png'
 import envelope from '../img/envelope.png'
 import location from '../img/location.png'
@@ -62,7 +63,7 @@ const Home = () => {
 
                 <div className="aboutText">
 
-                    <h1>About</h1>
+                    <h1>ABOUT</h1>
 
                     <h2>Hi am <b>Lewes</b>, an inspiring Web Developer.</h2>
 
@@ -80,7 +81,7 @@ const Home = () => {
 
             <div className="skillSection">
 
-                <h1>Skills</h1>
+                <h1>SKILLS</h1>
 
                 <div className="logos">
                     <img src={html} alt="" />
@@ -104,43 +105,46 @@ const Home = () => {
 
             <div className="projectsSection" id='project'>
 
-                <h1>Projects</h1>
+                <h1>PROJECTS</h1>
 
                 <div className="projectDivs">
 
 
                     <div>
-                        <Link to=''>
-                            <img src={laptop} alt="" height='130px' />
-                        </Link>
+                        <img src={laptop} alt="" className='projImg' />
+
                         <h2>Todo App</h2>
 
                         <p>Stylish todo App to keep track of tasks. Options to add,edit and remove tasks. Made with ReactJS.</p>
                         <p>HTML5, CSS3, React</p>
+                        <Link><img src={github} alt="" /></Link>
                     </div>
 
                     <div>
-                        <img src={laptop} alt="" height='130px' />
+                        <img src={laptop} alt="" className='projImg' />
                         <h2>Smoothies</h2>
 
                         <p>User's must log in to see smoothies recipes. Data is saved on external database. Authentication and Authorization used when login & signing up.</p>
                         <p>HTML5, CSS3, Nodejs, Express, Mongodb, Mongoose</p>
+                        <Link><img src={github} alt="" /></Link>
                     </div>
 
                     <div>
-                        <img src={laptop} alt="" height='130px' />
+                        <img src={laptop} alt="" className='projImg' />
                         <h2>Laptop Shop</h2>
 
                         <p>App where user, must have an account to see products. If no account can not access product information. Items can be added and viewed.</p>
                         <p>HTML5, CSS3, React, Node.js, Express, Mongodb, Mongoose, Heroku</p>
+                        <Link><img src={github} alt="" /></Link>
                     </div>
 
                     <div>
-                        <img src={laptop} alt="" height='130px' />
+                        <img src={laptop} alt="" className='projImg' />
                         <h2>Personal Website</h2>
 
                         <p>Personal website built from scratch.</p>
                         <p>HTML5, CSS3, React</p>
+                        <Link><img src={github} alt="" /></Link>
                     </div>
 
                 </div>
@@ -151,9 +155,34 @@ const Home = () => {
 
             <div className="contactSection" id='contact'>
 
-                <h1>Contact</h1>
+                <div className="contactBox">
 
-                <div className='container'>
+                    <h1>CONTACT</h1>
+
+                    <div className='row'>
+
+                        <div>
+                            <p>MOBILE</p>
+                            <h3>+49(0) 174-178-7629</h3>
+                        </div>
+
+                        <div>
+                            <Link><img src={envelope} alt="" /></Link>
+                        </div>
+
+                        <div>
+                            <Link><img src={linkedIn} alt="" /></Link>
+                        </div>
+
+                        <div>
+                            <img src={location} alt="" />
+                            <p>Leipzig, Germany</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                {/* <div className='container'>
                     <div>
                         <h3>+49(0) 174-178-7629</h3>
                     </div>
@@ -162,15 +191,13 @@ const Home = () => {
                         <Link><img src={envelope} alt="" height='50px' /></Link>
                         <Link><img src={github} alt="" /></Link>
                         <Link><img src={linkedIn} alt="" height='50px' /></Link>
-
-                        {/* <h2>Leweswalton@gmail.com</h2> */}
                     </div>
 
                     <div>
                         <img src={location} alt="" height='70px' />
                         <p>Leipzig, Germany</p>
                     </div>
-                </div>
+                </div> */}
 
 
             </div>

@@ -72,6 +72,7 @@ margin-bottom: 3rem;
   border: 18px solid white;
   height: 550px;
   /* width: 300px; */
+  padding-top: 2.9rem;
 }
 
 .imgDiv {
@@ -116,10 +117,6 @@ color: #34626c;
   width: 50%;
 }
 
-.aboutText h1 {
-  text-decoration: underline;
-}
-
 .aboutText h1,h2,p {
   padding: 1rem 2.2rem;
 }
@@ -138,7 +135,6 @@ color: #839b97;
 .skillSection h1 {
   padding-top: 2rem;
   font-size: 3rem;
-  text-decoration: underline;
 }
 
 .logos {
@@ -167,7 +163,8 @@ justify-content: space-around;
 .projectsSection h1 {
   text-align: center;
   padding-top: 2rem;
-  text-decoration: underline;
+  font-size: 3rem;
+  
 }
 
 .projectsSection div {
@@ -182,34 +179,73 @@ justify-content: space-around;
   justify-content: space-around;
 }
 
+.projImg {
+  height: 110px;
+  width: 200px;
+  margin-left: 2.5rem;
+}
+
 .projectDivs div {
+display: flex;
+flex-direction: column;
+flex: 1;
+
   text-align: center;
   border: 2px solid white;
   max-height: 80%;
   max-width: 15%;
   font-size: 110%;
-
-  box-shadow: 5px 5px 8px white;
+  color: #34626c;
+  box-shadow: 3px 3px 5px white;
 }
 
-.projectDivs img {
-  border: 2px solid white;
-  padding: 1rem;
+.projectDivs a {
+ margin-top: auto;
 }
-
 
 
 /********************** Contact **************/
 .contactSection {
 text-align: center;
-height: 400px;
+height: 500px;
+padding: 3rem;
 
 color: white ;
-background-image: -webkit-linear-gradient(258deg, #c6b497  50%, #34626c 50%);
-/* background-color: #c6b497; */
+background-image: -webkit-linear-gradient(252deg, #c6b497  50%, #cfd3ce 50%);
 }
 
-.container {
+.contactBox h1 {
+padding: 2rem;
+font-size: 3rem;
+}
+
+.contactBox {
+  height: 400px;
+  margin: 3rem 14.4%;
+
+  background-color: #34626c;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  padding-top: 3rem;
+}
+
+.row a, img{
+  height: 60px;
+}
+
+.row p {
+  padding: 0;
+}
+
+
+
+/* .container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -217,9 +253,7 @@ background-image: -webkit-linear-gradient(258deg, #c6b497  50%, #34626c 50%);
 }
 
 .contactSection div {
-/* border: 2px solid orange; */
 width: 100%;
-/* margin: 1rem; */
 padding: 2rem 0;
 }
 
@@ -229,4 +263,4 @@ padding: 2rem 0;
 
 .contactSection a {
   padding: 1rem;
-}
+} */
