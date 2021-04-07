@@ -11,24 +11,24 @@
 
 .skillSection img {
   height: 150px;
-  padding: 5px;
 }
 
 .logos {
-padding-top: 4rem;
 display: flex;
 flex-direction: row;
 justify-content: space-around;
 
-padding: 3rem;
+margin: .5rem;
+padding: 2.7rem;
 }
 
+
 .logos div p {
-  font-size: 0;
+  visibility: hidden;
+  font-size: 1.4rem;
+  color: #839b97;
 }
 
 .logos div:hover p {
-/* background-color: red; */
-/* display: block; */
-font-size: 1rem;
+visibility: visible;
 } 

@@ -45,7 +45,7 @@
   
   .projectDivs a {
    margin-top: auto;
-   padding: 5px;
+   /* padding: 2px; */
   }
   
   .tags {
@@ -60,7 +60,20 @@
     padding: .5rem;
   }
   
-  .projectDivs div h2,p {
+  .projectDivs div {
     padding: 1rem;
+  }
+
+  .projectDivs h2 {
+    padding: 1rem;
+  }
+
+  .projectDivs p {
+    padding: 1rem;
+  }
+
+  .projectDivs a img:hover {
+    background-color: #34626c;
+    border-radius: 60%;
   }
   
