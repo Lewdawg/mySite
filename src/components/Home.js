@@ -88,14 +88,20 @@ const Home = () => {
                 <h1>SKILLS</h1>
 
                 <div className="logos">
-                    <img src={html} alt="" />
-                    <img src={js} alt="" />
+                    <div>
+                        <img src={html} alt="" />
+                    </div>
+                    <div>
+                        <img src={js} alt="" />
+                    </div>
                     <img src={node} alt="" />
                     <img src={react} alt="" />
                 </div>
 
                 <div className="logos">
-                    <img src={css} alt="" />
+                    <div>
+                        <img src={css} alt="" />
+                    </div>
                     <img src={mongo} alt="" />
                     <img src={git} alt="" />
                     <img src={express} alt="" />
@@ -129,7 +135,14 @@ const Home = () => {
                         <h2>Smoothies</h2>
 
                         <p>User's must log in to see smoothies recipes. Data is saved on external database. Authentication and Authorization used when login & signing up.</p>
-                        <p>HTML5, CSS3, Nodejs, Express, Mongodb, Mongoose</p>
+                        <section className="pees">
+                            <p>HTML5</p>
+                            <p>CSS3</p>
+                            <p>Nodejs</p>
+                            <p>Express</p>
+                            <p>Mongodb</p>
+                            <p>Mongoose</p>
+                        </section>
                         <a href="https://github.com/Lewdawg/SmoothieSite" target="_blank"><img src={github} alt="" /></a>
                     </div>
 
@@ -185,24 +198,6 @@ const Home = () => {
 
                     </div>
                 </div>
-
-                {/* <div className='container'>
-                    <div>
-                        <h3>+49(0) 174-178-7629</h3>
-                    </div>
-
-                    <div>
-                        <Link><img src={envelope} alt="" height='50px' /></Link>
-                        <Link><img src={github} alt="" /></Link>
-                        <Link><img src={linkedIn} alt="" height='50px' /></Link>
-                    </div>
-
-                    <div>
-                        <img src={location} alt="" height='70px' />
-                        <p>Leipzig, Germany</p>
-                    </div>
-                </div> */}
-
 
             </div>
         </>
