@@ -1,0 +1,38 @@
+.aboutSection {
+    text-align: left;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-image: -webkit-linear-gradient(246.5deg, #839b97 50%, #cfd3ce 50%);
+    
+    color: #34626c;
+    }
+    
+    .aboutSection div {
+      /* border: 2px solid red; */
+      margin: 1rem;
+      padding: 1rem;
+    }
+    
+    .aboutImage {
+      height: 70%;
+      text-align: center;
+    }
+    
+    .arrows {
+      margin-right: 20%;
+      height: 100%;
+      /* width: 300px; */
+    }
+    
+    .aboutText {
+      font-size: 1.5rem;
+      width: 50%;
+    }
+    
+    .aboutText h1,h2,p {
+      padding: 1rem 2.2rem;
+    }

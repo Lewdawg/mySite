@@ -1,8 +1,10 @@
 import { Link } from 'react-router-dom'
 
+import About from './about/About.js'
+
 
 import headShot from '../img/headShot.jpg'
-import arrows from '../img/arrows.png'
+// import arrows from '../img/arrows.png'
 
 //Skills 
 import html from '../img/html.png'
@@ -55,7 +57,9 @@ const Home = () => {
 
             {/*********************************  About ************************************/}
 
-            <div className="aboutSection" id='about'>
+            <About />
+
+            {/* <div className="aboutSection" id='about'>
 
                 <div className="aboutImage">
                     <img src={arrows} alt="" className="arrows" />
@@ -74,7 +78,7 @@ const Home = () => {
                     <p>With the DCI, we have covered how to become a <b>Full-Stack Web Developer</b> and have experimented with various different programming languages.</p>
 
                 </div>
-            </div>
+            </div> */}
 
 
             {/*********************************  Skills ************************************/}
@@ -103,7 +107,7 @@ const Home = () => {
 
             {/*********************************  Projects ************************************/}
 
-            <div className="projectsSection" id='project'>
+            <div className="projectsSection" id='projects'>
 
                 <h1>PROJECTS</h1>
 
@@ -117,7 +121,7 @@ const Home = () => {
 
                         <p>Stylish todo App to keep track of tasks. Options to add,edit and remove tasks. Made with ReactJS.</p>
                         <p>HTML5, CSS3, React</p>
-                        <Link><img src={github} alt="" /></Link>
+                        <a href="https://github.com/Lewdawg/todoApp" target="_blank"><img src={github} alt="" /></a>
                     </div>
 
                     <div>
@@ -126,7 +130,7 @@ const Home = () => {
 
                         <p>User's must log in to see smoothies recipes. Data is saved on external database. Authentication and Authorization used when login & signing up.</p>
                         <p>HTML5, CSS3, Nodejs, Express, Mongodb, Mongoose</p>
-                        <Link><img src={github} alt="" /></Link>
+                        <a href="https://github.com/Lewdawg/SmoothieSite" target="_blank"><img src={github} alt="" /></a>
                     </div>
 
                     <div>
@@ -135,7 +139,7 @@ const Home = () => {
 
                         <p>App where user, must have an account to see products. If no account can not access product information. Items can be added and viewed.</p>
                         <p>HTML5, CSS3, React, Node.js, Express, Mongodb, Mongoose, Heroku</p>
-                        <Link><img src={github} alt="" /></Link>
+                        <a href="https://github.com/Lewdawg/react-gh-pages" target="_blank"><img src={github} alt="" /></a>
                     </div>
 
                     <div>
@@ -144,7 +148,7 @@ const Home = () => {
 
                         <p>Personal website built from scratch.</p>
                         <p>HTML5, CSS3, React</p>
-                        <Link><img src={github} alt="" /></Link>
+                        <a href="https://github.com/Lewdawg/mySite" target="_blank"><img src={github} alt="" /></a>
                     </div>
 
                 </div>
@@ -167,15 +171,15 @@ const Home = () => {
                         </div>
 
                         <div>
-                            <Link><img src={envelope} alt="" /></Link>
+                            <a href="https://www.google.com/" target="_blank"><img src={envelope} alt="" /></a>
                         </div>
 
                         <div>
-                            <Link><img src={linkedIn} alt="" /></Link>
+                            <a href="https://de.linkedin.com/in/lewes-walton-b34400198?trk=people_directory" target="_blank"><img src={linkedIn} alt="" /></a>
                         </div>
 
                         <div>
-                            <img src={location} alt="" />
+                            <a href="https://www.google.com/maps/place/Leipzig/@47.5922303,7.7620116,5.28z/data=!4m5!3m4!1s0x47a6f818200f2c73:0x93df80d2b9b4f552!8m2!3d51.3396955!4d12.3730747" target="_blank"><img src={location} alt="" /></a>
                             <p>Leipzig, Germany</p>
                         </div>
 

@@ -7,30 +7,19 @@ function Navbar() {
 
         <div className="navbar">
 
-            {/* <Link to='/'><h1>Lewes Walton</h1></Link> */}
-
             <div className="links">
 
-                <Link to="/">Home</Link>
+                {/* <Link to="/">Home</Link> */}
+                <a href="#home">Home</a>
 
-                <Link to="/about">About</Link>
+                {/* <Link to="/#about">About</Link> */}
+                <a href="#about">About</a>
 
-                <Link to="/projects">Projects</Link>
+                {/* <Link to="/projects">Projects</Link> */}
+                <a href="#projects">Projects</a>
 
-                <Link to="/contact">Contact</Link>
-
-                {/* For Lanch */}
-
-
-                {/* <Link to="http://leweswalton.com#home"><h1>Lewes Walton</h1></Link>
-
-                <div className="links">
-
-                    <Link to="http://leweswalton.com#home">Home</Link>
-
-                    <Link to="http://leweswalton.com#projects">Projects</Link>
-
-                    <Link to="http://leweswalton.com#contact">Contact</Link> */}
+                {/* <Link to="/contact">Contact</Link> */}
+                <a href="#contact">Contact</a>
 
             </div>
         </div>

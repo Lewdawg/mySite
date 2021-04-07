@@ -82,7 +82,7 @@ margin-bottom: 3rem;
 
 
 /********************** About **************/
-.aboutSection {
+/* .aboutSection {
 text-align: left;
 height: 800px;
 display: flex;
@@ -96,7 +96,7 @@ color: #34626c;
 }
 
 .aboutSection div {
-  /* border: 2px solid red; */
+
   margin: 1rem;
   padding: 1rem;
 }
@@ -109,7 +109,7 @@ color: #34626c;
 .arrows {
   margin-right: 20%;
   height: 100%;
-  /* width: 300px; */
+
 }
 
 .aboutText {
@@ -119,7 +119,7 @@ color: #34626c;
 
 .aboutText h1,h2,p {
   padding: 1rem 2.2rem;
-}
+} */
 
 
 /********************** Skills ***************/
@@ -137,18 +137,19 @@ color: #839b97;
   font-size: 3rem;
 }
 
+.skillSection img {
+  height: 150px;
+}
+
+.skillSection img:hover {
+  color: red;
+}
+
 .logos {
 padding-top: 4rem;
-
 display: flex;
 flex-direction: row;
 justify-content: space-around;
-
-}
-
-.skillSection img {
-  height: 150px;
-  
 }
 
 
@@ -157,7 +158,7 @@ justify-content: space-around;
   height: 720px;
   background-image: -webkit-linear-gradient(249deg, #839b97  50%, #c6b497 50%);
   color: white;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .projectsSection h1 {
@@ -190,13 +191,13 @@ display: flex;
 flex-direction: column;
 flex: 1;
 
-  text-align: center;
-  border: 2px solid white;
-  max-height: 80%;
-  max-width: 15%;
-  font-size: 110%;
-  color: #34626c;
-  box-shadow: 3px 3px 5px white;
+text-align: center;
+border: 2px solid white;
+max-height: 80%;
+max-width: 15%;
+font-size: 110%;
+color: #34626c;
+box-shadow: 3px 3px 5px white;
 }
 
 .projectDivs a {
