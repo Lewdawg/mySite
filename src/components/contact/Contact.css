@@ -1,0 +1,37 @@
+.contactSection {
+    text-align: center;
+    padding: 3rem;
+    
+    color: white ;
+    background-image: -webkit-linear-gradient(252deg, #c6b497  50%, #cfd3ce 50%);
+    }
+    
+    .contactBox h1 {
+    padding: 2rem;
+    font-size: 3rem;
+    }
+    
+    .contactBox {
+      height: 400px;
+      margin: 3rem 14.4%;
+      
+      background-color: #34626c;
+    }
+    
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    
+      padding-top: 3rem;
+    }
+    
+    .row a, img{
+      height: 60px;
+    }
+    
+    .row p {
+      padding: 0;
+    }
+    

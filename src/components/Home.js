@@ -1,33 +1,39 @@
-import { Link } from 'react-router-dom'
-
 import About from './about/About.js'
+import Projects from './projects/Projects.js'
+import Contact from './contact/Contact.js'
+import Skills from './skils/Skills.js'
 
-
+//Home
 import headShot from '../img/headShot.jpg'
+
+
+//About
 // import arrows from '../img/arrows.png'
 
 //Skills 
-import html from '../img/html.png'
-import js from '../img/js.png'
-import express from '../img/express.png'
-import node from '../img/node.png'
-import react from '../img/react.png'
-import css from '../img/css.png'
-import mongo from '../img/mongo.png'
-import git from '../img/git.png'
+// import html from '../img/html.png'
+// import js from '../img/js.png'
+// import express from '../img/express.png'
+// import node from '../img/node.png'
+// import react from '../img/react.png'
+// import css from '../img/css.png'
+// import mongo from '../img/mongo.png'
+// import git from '../img/git.png'
 
 //Project
 // import projects from '../data/projects.json'
-import laptop from '../img/laptop.png'
-import github from '../img/githubLogo.png'
+// import laptop from '../img/laptop.png'
+// import github from '../img/githubLogo.png'
+// import webArrow from '../img/webpageArrow.png'
 
 //Contact
 
-import linkedIn from '../img/linkedin.png'
-import envelope from '../img/envelope.png'
-import location from '../img/location.png'
+// import linkedIn from '../img/linkedin.png'
+// import envelope from '../img/envelope.png'
+// import location from '../img/location.png'
 
 
+{/* <a href="https://github.com/Lewdawg/react-gh-pages" target="_blank"><img src={webArrow} alt="" /></a> */ }
 
 const Home = () => {
 
@@ -58,6 +64,9 @@ const Home = () => {
             {/*********************************  About ************************************/}
 
             <About />
+            <Skills />
+            <Projects />
+            <Contact />
 
             {/* <div className="aboutSection" id='about'>
 
@@ -82,7 +91,7 @@ const Home = () => {
 
 
             {/*********************************  Skills ************************************/}
-
+            {/* 
             <div className="skillSection">
 
                 <h1>SKILLS</h1>
@@ -107,12 +116,14 @@ const Home = () => {
                     <img src={express} alt="" />
                 </div>
 
-            </div>
+            </div> */}
 
 
 
             {/*********************************  Projects ************************************/}
 
+
+            {/* 
             <div className="projectsSection" id='projects'>
 
                 <h1>PROJECTS</h1>
@@ -125,8 +136,12 @@ const Home = () => {
 
                         <h2>Todo App</h2>
 
-                        <p>Stylish todo App to keep track of tasks. Options to add,edit and remove tasks. Made with ReactJS.</p>
-                        <p>HTML5, CSS3, React</p>
+                        <p>Stylish todo App to keep track of tasks. Options to add,edit and remove tasks. New tasks get assigned predefined colors. Made with ReactJS.</p>
+                        <section className="tags">
+                            <p>HTML5</p>
+                            <p>CSS3</p>
+                            <p>React</p>
+                        </section>
                         <a href="https://github.com/Lewdawg/todoApp" target="_blank"><img src={github} alt="" /></a>
                     </div>
 
@@ -134,8 +149,8 @@ const Home = () => {
                         <img src={laptop} alt="" className='projImg' />
                         <h2>Smoothies</h2>
 
-                        <p>User's must log in to see smoothies recipes. Data is saved on external database. Authentication and Authorization used when login & signing up.</p>
-                        <section className="pees">
+                        <p>User's must login to see recipes. Data is saved on database. Authentication and Authorization used when login & signing up.</p>
+                        <section className="tags">
                             <p>HTML5</p>
                             <p>CSS3</p>
                             <p>Nodejs</p>
@@ -151,26 +166,40 @@ const Home = () => {
                         <h2>Laptop Shop</h2>
 
                         <p>App where user, must have an account to see products. If no account can not access product information. Items can be added and viewed.</p>
-                        <p>HTML5, CSS3, React, Node.js, Express, Mongodb, Mongoose, Heroku</p>
+                        <section className="tags">
+                            <p>HTML5</p>
+                            <p>CSS3</p>
+                            <p>React</p>
+                            <p>Nodejs</p>
+                            <p>Express</p>
+                            <p>Mongodb</p>
+                            <p>Mongoose</p>
+                            <p>Heroku</p>
+                        </section>
                         <a href="https://github.com/Lewdawg/react-gh-pages" target="_blank"><img src={github} alt="" /></a>
+
                     </div>
 
                     <div>
                         <img src={laptop} alt="" className='projImg' />
                         <h2>Personal Website</h2>
 
-                        <p>Personal website built from scratch.</p>
-                        <p>HTML5, CSS3, React</p>
+                        <p>Personal website designed, styled and built from scratch.  Displays my current work and has information and contact details about myself.</p>
+                        <section className="tags">
+                            <p>HTML5</p>
+                            <p>CSS3</p>
+                            <p>React</p>
+                        </section>
                         <a href="https://github.com/Lewdawg/mySite" target="_blank"><img src={github} alt="" /></a>
                     </div>
 
                 </div>
-            </div>
+            </div> */}
 
 
             {/*********************************  Contact ************************************/}
 
-            <div className="contactSection" id='contact'>
+            {/* <div className="contactSection" id='contact'>
 
                 <div className="contactBox">
 
@@ -199,7 +228,7 @@ const Home = () => {
                     </div>
                 </div>
 
-            </div>
+            </div> */}
         </>
     );
 }

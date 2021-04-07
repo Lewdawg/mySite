@@ -125,10 +125,8 @@ color: #34626c;
 
 /********************** Skills ***************/
 
-.skillSection {
+/* .skillSection {
 text-align: center;
-/* height: 600px; */
-/* background-image: -webkit-linear-gradient(252deg, #cfd3ce 50%, #34626c 50%); */
 background-color: white;
 color: #839b97;
 }
@@ -143,12 +141,6 @@ color: #839b97;
   padding: 5px;
 }
 
-
-/* .skillSection img:hover {
-  border: 1px solid red;
-  border-radius: 50%;
-} */
-
 .logos {
 padding-top: 4rem;
 display: flex;
@@ -156,16 +148,15 @@ flex-direction: row;
 justify-content: space-around;
 
 padding: 3rem;
-}
+} */
 
 
 /********************** Projects ***************/
-.projectsSection {
-  /* height: 720px; */
-  /* height: 50%; */
+/* .projectsSection {
   background-image: -webkit-linear-gradient(249deg, #839b97  50%, #c6b497 50%);
   color: white;
   margin-bottom: 4rem;
+padding-bottom: 1rem;
 }
 
 .projectsSection h1 {
@@ -198,7 +189,6 @@ flex: 1;
 
 text-align: center;
 border: 2px solid white;
-max-height: 80%;
 max-width: 15%;
 font-size: 110%;
 color: #34626c;
@@ -207,20 +197,28 @@ box-shadow: 3px 3px 5px white;
 
 .projectDivs a {
  margin-top: auto;
+ padding: 5px;
 }
 
-.pees {
-  border: none;
+.tags {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 2rem;
 }
+
+.tags p {
+  padding: .5rem;
+}
+
+.projectDivs div h2,p {
+  padding: 1rem;
+} */
 
 
 /********************** Contact **************/
-.contactSection {
+/* .contactSection {
 text-align: center;
-/* height: 500px; */
 padding: 3rem;
 
 color: white ;
@@ -254,26 +252,4 @@ font-size: 3rem;
 
 .row p {
   padding: 0;
-}
-
-
-
-/* .container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.contactSection div {
-width: 100%;
-padding: 2rem 0;
-}
-
-.contactSection h1 {
-  padding: 2rem;
-}
-
-.contactSection a {
-  padding: 1rem;
 } */

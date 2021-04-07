@@ -1,14 +1,12 @@
 .aboutSection {
     text-align: left;
     padding: 6rem 0;
-    /* height: 800px; */
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     
-    background-image: -webkit-linear-gradient(246.5deg, #839b97 50%, #cfd3ce 50%);
-    
+    background-image: -webkit-linear-gradient(246.5deg, #839b97 50%, #cfd3ce 50%);   
     color: #34626c;
     }
     
@@ -19,14 +17,13 @@
     }
     
     .aboutImage {
-      height: 90%;
-      text-align: center;
+      /* height: 90%; */
+      /* text-align: center; */
     }
     
     .arrows {
-      margin-right: 20%;
+      /* margin-right: 20%; */
       height: 100%;
-      /* width: 300px; */
     }
     
     .aboutText {
@@ -34,6 +31,14 @@
       width: 50%;
     }
     
-    .aboutText h1,h2,p {
+    .aboutText h1 {
+      padding: 1rem 2.2rem;
+    }
+
+    .aboutText h2 {
+      padding: 1rem 2.2rem;
+    }
+
+    .aboutText p {
       padding: 1rem 2.2rem;
     }
