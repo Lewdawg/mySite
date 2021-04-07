@@ -33,7 +33,7 @@ function Contact() {
                     </div>
 
                     <div>
-                        <a href="https://www.google.com/maps/place/Leipzig/@47.5922303,7.7620116,5.28z/data=!4m5!3m4!1s0x47a6f818200f2c73:0x93df80d2b9b4f552!8m2!3d51.3396955!4d12.3730747" target="_blank"><img src={location} alt="" /></a>
+                        <a href="https://www.google.com/maps/place/Leipzig/@49.7504938,4.2953309,6.01z/data=!4m5!3m4!1s0x47a6f818200f2c73:0x93df80d2b9b4f552!8m2!3d51.3396955!4d12.3730747" target="_blank"><img src={location} alt="" /></a>
                         <p>Leipzig, Germany</p>
                     </div>
 

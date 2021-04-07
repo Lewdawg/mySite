@@ -7,11 +7,11 @@
 
 /********************** Navbar **************/
 .navbar {
-  padding: 25px;
+  padding: 1.4%;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  justify-content: flex-end;
   width: 100%;
-  /* border-bottom: 2px solid #f2f2f2; */
 
   position: fixed; 
  
@@ -21,15 +21,14 @@
 
 
 .navbar .links {
-  margin-left: 70%;
+  margin-left: 65%;
 }
 
 .navbar a {
-  /* color: blue; */
   color: #cfd3ce;
-  margin-left: 16px;
+  /* margin-left: 1rem; */
   text-decoration: none;
-  padding: 1rem;
+  padding: 3rem;
   font-size: 1.6rem;
 }
 
@@ -37,30 +36,29 @@
 /********************** Home **************/
 .homeSection {
 text-align: center;
-/* height: 800px; */
 display: flex;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
 
-background-image: -webkit-linear-gradient(71deg, #839b97 50%, #fff 50%);
+background-image: -webkit-linear-gradient(71.1deg, #839b97 50%, #fff 50%);
 
 color: #34626c;
 margin-bottom: 3rem;
-padding: 3rem 0;
+padding: 4rem 0;
 }
 
 .homeSection div {
   /* border: 2px solid red; */
-  margin: 1rem;
-  padding: 1rem;
+  margin: 1.5rem;
+  /* padding: 1rem; */
 }
 
 .bigName {
   font-size: 5rem;
   text-align: left;
   color: #cfd3ce;
-  width: 45%;
+  width: 50%;
 }
 .bigName h1 {
   padding-top: 10%;
@@ -72,8 +70,7 @@ padding: 3rem 0;
   margin-right: 20%;
   border: 18px solid white;
   height: 550px;
-  /* width: 300px; */
-  padding-top: 2.9rem;
+  padding-top: 2rem;
 }
 
 .imgDiv {
