@@ -6,10 +6,9 @@
 
 
 /********************** Navbar **************/
-.navbar {
+/* .navbar {
   padding: 1.4%;
   display: flex;
-  /* align-items: center; */
   justify-content: flex-end;
   width: 100%;
 
@@ -26,11 +25,10 @@
 
 .navbar a {
   color: #cfd3ce;
-  /* margin-left: 1rem; */
   text-decoration: none;
   padding: 3rem;
   font-size: 1.6rem;
-}
+} */
 
 
 /********************** Home **************/

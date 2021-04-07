@@ -23,6 +23,7 @@ function Skills() {
             <div className="logos">
                 <div>
                     <img src={html} alt="" />
+                    <p>HTML 5</p>
                 </div>
                 <div>
                     <img src={js} alt="" />
@@ -41,7 +42,6 @@ function Skills() {
             </div>
 
         </div>
-
     )
 }
 

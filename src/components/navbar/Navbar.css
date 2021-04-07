@@ -1,0 +1,27 @@
+.navbar {
+    padding: 1.4%;
+    display: flex;
+    justify-content: flex-end;
+
+    width: 100%;
+    position: fixed; 
+   
+    background-color: #34626c;
+    color: #cfd3ce;
+  }
+  
+  /* .navbar .links {
+    margin-left: 65%;
+  } */
+  
+  .navbar a {
+    color: #cfd3ce;
+    text-decoration: none;
+    padding: 3rem;
+    font-size: 1.6rem;
+  }
+
+  .navbar a:hover {
+      color: red;
+  }
+  

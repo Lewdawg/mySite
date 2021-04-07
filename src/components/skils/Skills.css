@@ -2,24 +2,33 @@
     text-align: center;
     background-color: white;
     color: #839b97;
-    }
+}
     
-    .skillSection h1 {
-      padding-top: 2rem;
-      font-size: 3rem;
-    }
-    
-    .skillSection img {
-      height: 150px;
-      padding: 5px;
-    }
-    
-    .logos {
-    padding-top: 4rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    
-    padding: 3rem;
-    }
-    
+.skillSection h1 {
+  padding-top: 2rem;
+  font-size: 3rem;
+}
+
+.skillSection img {
+  height: 150px;
+  padding: 5px;
+}
+
+.logos {
+padding-top: 4rem;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+
+padding: 3rem;
+}
+
+.logos div p {
+  font-size: 0;
+}
+
+.logos div:hover p {
+/* background-color: red; */
+/* display: block; */
+font-size: 1rem;
+} 
