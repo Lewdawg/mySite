@@ -12,7 +12,6 @@ const Home = () => {
     return (
 
         <>
-
             <div className="homeSection" id='home'>
 
                 <div className='imgDiv'>
@@ -27,14 +26,12 @@ const Home = () => {
                     <h6>Junior Developer</h6>
                 </div>
 
-
             </div>
 
             <About />
             <Skills />
             <Projects />
             <Contact />
-
         </>
     );
 }

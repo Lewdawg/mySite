@@ -29,3 +29,22 @@
     .aboutText p {
       padding: 1rem 2.2rem;
     }
+
+/********************** Responsiveness **************/
+
+    @media screen and (max-width: 1300px) {
+
+      .aboutSection {
+        padding: 4rem 0;
+        background-image: -webkit-linear-gradient(242deg, #839b97 50%, #cfd3ce 50%);   
+      }
+
+      .aboutText {
+        font-size: 1.3rem;
+      }
+
+      .arrows {
+        height: 450px;
+      }
+
+    }

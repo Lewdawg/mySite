@@ -10,10 +10,6 @@
    font-size:16px;
  }
 
-
-/********************** Navbar **************/
-
-
 /********************** Home **************/
 .homeSection {
 text-align: center;
@@ -30,9 +26,7 @@ padding: 4rem 0;
 }
 
 .homeSection div {
-  /* border: 2px solid red; */
   margin: 1.5rem;
-  /* padding: 1rem; */
 }
 
 .bigName {
@@ -59,14 +53,30 @@ padding: 4rem 0;
 }
 
 
-/********************** About **************/
+/********************** Responsiveness **************/
 
+@media screen and (max-width: 1300px) {
 
-/********************** Skills ***************/
+  .homeSection {
+    background-image: -webkit-linear-gradient(69.2deg, #839b97 50%, #fff 50%);
+  }
 
+  .imgMe {
+    margin-right: 20%;
+    height: 455px;
+    padding-top: 1.5rem;
+  }
 
-/********************** Projects ***************/
+  .bigName {
+    font-size: 4rem;
+    text-align: left;
+    color: #cfd3ce;
+    width: 52%;
+  }
+  .bigName h1 {
+    padding-top: 10%;
+  }
 
+}
 
-/********************** Contact **************/
 

@@ -60,7 +60,7 @@
   .projectDivs h2, 
   .projectDivs p
    {
-    padding: 1rem;
+    padding: .7rem;
   }
 
   .projectDivs a img:hover {
@@ -68,12 +68,47 @@
     border-radius: 60%;
   }
   
-/* Responsiveness */
 
-  @media screen and (max-width: 1400px) {
+
+
+  /********************** Responsiveness **************/
+
+  @media screen and (max-width: 1450px) {
+
+    .projectsSection {
+      background-image: -webkit-linear-gradient(244deg, #839b97  50%, #c6b497 50%);
+    }
 
     .projectDivs div {
-      max-width: 20%;
+      max-width: 18%;
+    }
+
+    /* .projectDivs div, */
+    .projectDivs h2, 
+    .projectDivs p
+     {
+      padding: .8rem;
     }
 
   }
+
+  /************************/
+
+@media screen and (max-width: 1300px) {
+
+  .projectsSection {
+    background-image: -webkit-linear-gradient(243deg, #839b97  50%, #c6b497 50%);
+  }
+
+  .projectDivs div {
+    max-width: 18%;
+  }
+
+  /* .projectDivs div, */
+  .projectDivs h2, 
+  .projectDivs p
+   {
+    padding: .5rem;
+  }
+
+}

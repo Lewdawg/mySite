@@ -30,4 +30,19 @@
       height: 90px;
     }
     
+
+/********************** Responsiveness **************/
+
+@media screen and (max-width: 1300px) {
+
+  .contactSection {
+    background-image: -webkit-linear-gradient(247deg, #c6b497  50%, #cfd3ce 50%);
+  }
+
+  .contactBox {
+    height: 380px;
+    margin: 3rem 13.4%;
+  }
+
+}
     
