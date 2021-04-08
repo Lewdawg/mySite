@@ -4,15 +4,17 @@ import './Projects.css'
 // import ProjectCard from './card/ProjectCard'
 
 //Images
-import laptop from '../../img/laptop.png'
+import laptop from '../../img/laptop2.png'
+import todo from '../../img/todo.png'
+import smoothie from '../../img/smoothie.png'
+import selfpage from '../../img/selfpage.png'
+
 import github from '../../img/githubLogo.png'
 
-//import webArrow from '../img/webpageArrow.png'
 
 function Projects() {
 
     return (
-
 
         <div className="projectsSection" id='projects'>
 
@@ -23,7 +25,7 @@ function Projects() {
             <div className="projectDivs">
 
                 <div>
-                    <img src={laptop} alt="" className='projImg' />
+                    <img src={todo} alt="" className='projImg' />
 
                     <h2>Todo App</h2>
 
@@ -37,7 +39,7 @@ function Projects() {
                 </div>
 
                 <div>
-                    <img src={laptop} alt="" className='projImg' />
+                    <img src={smoothie} alt="" className='projImg' />
                     <h2>Smoothies</h2>
 
                     <p>User's must login to see recipes. Data is saved on database. Authentication and Authorization used when login & signing up.</p>
@@ -72,7 +74,7 @@ function Projects() {
                 </div>
 
                 <div>
-                    <img src={laptop} alt="" className='projImg' />
+                    <img src={selfpage} alt="" className='projImg' />
                     <h2>Personal Website</h2>
 
                     <p>Personal website designed, styled and built from scratch.  Displays my current work and has information and contact details about myself.</p>

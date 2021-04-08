@@ -12,29 +12,6 @@
 
 
 /********************** Navbar **************/
-/* .navbar {
-  padding: 1.4%;
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
-
-  position: fixed; 
- 
-  background-color: #34626c;
-  color: #cfd3ce;
-}
-
-
-.navbar .links {
-  margin-left: 65%;
-}
-
-.navbar a {
-  color: #cfd3ce;
-  text-decoration: none;
-  padding: 3rem;
-  font-size: 1.6rem;
-} */
 
 
 /********************** Home **************/
@@ -82,175 +59,14 @@ padding: 4rem 0;
 }
 
 
-
 /********************** About **************/
-/* .aboutSection {
-text-align: left;
-height: 800px;
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
-
-background-image: -webkit-linear-gradient(246.5deg, #839b97 50%, #cfd3ce 50%);
-
-color: #34626c;
-}
-
-.aboutSection div {
-
-  margin: 1rem;
-  padding: 1rem;
-}
-
-.aboutImage {
-  height: 70%;
-  text-align: center;
-}
-
-.arrows {
-  margin-right: 20%;
-  height: 100%;
-
-}
-
-.aboutText {
-  font-size: 1.5rem;
-  width: 50%;
-}
-
-.aboutText h1,h2,p {
-  padding: 1rem 2.2rem;
-} */
 
 
 /********************** Skills ***************/
 
-/* .skillSection {
-text-align: center;
-background-color: white;
-color: #839b97;
-}
-
-.skillSection h1 {
-  padding-top: 2rem;
-  font-size: 3rem;
-}
-
-.skillSection img {
-  height: 150px;
-  padding: 5px;
-}
-
-.logos {
-padding-top: 4rem;
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-
-padding: 3rem;
-} */
-
 
 /********************** Projects ***************/
-/* .projectsSection {
-  background-image: -webkit-linear-gradient(249deg, #839b97  50%, #c6b497 50%);
-  color: white;
-  margin-bottom: 4rem;
-padding-bottom: 1rem;
-}
-
-.projectsSection h1 {
-  text-align: center;
-  padding-top: 2rem;
-  font-size: 3rem;
-}
-
-.projectsSection div {
-  margin: 1rem;
-  padding: 1rem ;
-}
-
-.projectDivs{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.projImg {
-  height: 110px;
-  width: 200px;
-  margin-left: 2.5rem;
-}
-
-.projectDivs div {
-display: flex;
-flex-direction: column;
-flex: 1;
-
-text-align: center;
-border: 2px solid white;
-max-width: 15%;
-font-size: 110%;
-color: #34626c;
-box-shadow: 3px 3px 5px white;
-}
-
-.projectDivs a {
- margin-top: auto;
- padding: 5px;
-}
-
-.tags {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 2rem;
-}
-
-.tags p {
-  padding: .5rem;
-}
-
-.projectDivs div h2,p {
-  padding: 1rem;
-} */
 
 
 /********************** Contact **************/
-/* .contactSection {
-text-align: center;
-padding: 3rem;
 
-color: white ;
-background-image: -webkit-linear-gradient(252deg, #c6b497  50%, #cfd3ce 50%);
-}
-
-.contactBox h1 {
-padding: 2rem;
-font-size: 3rem;
-}
-
-.contactBox {
-  height: 400px;
-  margin: 3rem 14.4%;
-
-  background-color: #34626c;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-
-  padding-top: 3rem;
-}
-
-.row a, img{
-  height: 60px;
-}
-
-.row p {
-  padding: 0;
-} */

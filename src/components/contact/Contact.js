@@ -26,11 +26,13 @@ function Contact() {
                     </div>
 
                     <div>
-                        <a href="https://www.google.com/" target="_blank"><img src={envelope} alt="" /></a>
+                        <a href="mailto:leweswalton@gmail.com" target="_blank"><img src={envelope} alt="" /></a>
+                        <h3>Email</h3>
                     </div>
 
                     <div>
                         <a href="https://de.linkedin.com/in/lewes-walton-b34400198?trk=people_directory" target="_blank"><img src={linkedIn} alt="" /></a>
+                        <h3>LinkedIn</h3>
                     </div>
 
                     <div>
