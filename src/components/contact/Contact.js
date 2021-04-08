@@ -5,6 +5,7 @@ import './Contact.css'
 import linkedIn from '../../img/linkedin.png'
 import envelope from '../../img/envelope.png'
 import location from '../../img/location.png'
+import mobile from '../../img/mobile.png'
 
 
 function Contact() {
@@ -20,7 +21,7 @@ function Contact() {
                 <div className='row'>
 
                     <div>
-                        <p>MOBILE</p>
+                        <img src={mobile} alt="" />
                         <h3>+49(0) 174-178-7629</h3>
                     </div>
 
@@ -34,7 +35,7 @@ function Contact() {
 
                     <div>
                         <a href="https://www.google.com/maps/place/Leipzig/@49.7504938,4.2953309,6.01z/data=!4m5!3m4!1s0x47a6f818200f2c73:0x93df80d2b9b4f552!8m2!3d51.3396955!4d12.3730747" target="_blank"><img src={location} alt="" /></a>
-                        <p>Leipzig, Germany</p>
+                        <h3>Leipzig, Germany</h3>
                     </div>
 
                 </div>
