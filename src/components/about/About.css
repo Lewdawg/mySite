@@ -11,34 +11,21 @@
     }
     
     .aboutSection div {
-      /* border: 2px solid red; */
       margin: 1rem;
       padding: 1rem;
     }
     
-    .aboutImage {
-      /* height: 90%; */
-      /* text-align: center; */
-    }
-    
-    .arrows {
-      /* margin-right: 20%; */
+    /* .arrows {
       height: 100%;
-    }
+    } */
     
     .aboutText {
       font-size: 1.5rem;
       width: 50%;
     }
     
-    .aboutText h1 {
-      padding: 1rem 2.2rem;
-    }
-
-    .aboutText h2 {
-      padding: 1rem 2.2rem;
-    }
-
+    .aboutText h1,
+    .aboutText h2,
     .aboutText p {
       padding: 1rem 2.2rem;
     }

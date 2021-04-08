@@ -24,13 +24,6 @@
     justify-content: space-around;
   }
   
-  .projImg {
-    /* text-align: center; */
-    height: 130px;
-    width: 55%;
-    margin-left: 22%;
-  }
-  
   .projectDivs div {
   display: flex;
   flex-direction: column;
@@ -42,6 +35,13 @@
   font-size: 110%;
   color: #34626c;
   box-shadow: 3px 3px 5px white;
+  }
+
+  .projImg {
+    /* text-align: center; */
+    height: 130px;
+    width: 55%;
+    margin-left: 22%;
   }
   
   .projectDivs a {
@@ -63,9 +63,17 @@
     padding: 1rem;
   }
 
-
   .projectDivs a img:hover {
     background-color: #34626c;
     border-radius: 60%;
   }
   
+/* Responsiveness */
+
+  @media screen and (max-width: 1400px) {
+
+    .projectDivs div {
+      max-width: 20%;
+    }
+
+  }

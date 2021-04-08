@@ -26,17 +26,17 @@ function Contact() {
                     </div>
 
                     <div>
-                        <a href="mailto:leweswalton@gmail.com" target="_blank"><img src={envelope} alt="" /></a>
+                        <a href="mailto:leweswalton@gmail.com" rel="noreferrer" target="_blank"><img src={envelope} alt="" /></a>
                         <h3>Email</h3>
                     </div>
 
                     <div>
-                        <a href="https://de.linkedin.com/in/lewes-walton-b34400198?trk=people_directory" target="_blank"><img src={linkedIn} alt="" /></a>
+                        <a href="https://de.linkedin.com/in/lewes-walton-b34400198?trk=people_directory" rel="noreferrer" target="_blank"><img src={linkedIn} alt="" /></a>
                         <h3>LinkedIn</h3>
                     </div>
 
                     <div>
-                        <a href="https://www.google.com/maps/place/Leipzig/@49.7504938,4.2953309,6.01z/data=!4m5!3m4!1s0x47a6f818200f2c73:0x93df80d2b9b4f552!8m2!3d51.3396955!4d12.3730747" target="_blank"><img src={location} alt="" /></a>
+                        <a href="https://www.google.com/maps/place/Leipzig/@49.7504938,4.2953309,6.01z/data=!4m5!3m4!1s0x47a6f818200f2c73:0x93df80d2b9b4f552!8m2!3d51.3396955!4d12.3730747" rel="noreferrer" target="_blank"><img src={location} alt="" /></a>
                         <h3>Leipzig, Germany</h3>
                     </div>
 
