@@ -76,9 +76,37 @@
   }
 
   .row h3 {
-    font-size: .7rem;
+    font-size: .6rem;
   }
 }
 
 /**********************/
 
+@media screen and (max-width: 600px) {
+
+  .contactBox {
+    height: 415px;
+  }
+
+  .contactBox h1 {
+    padding: 1rem;
+    font-size: 2.5rem;
+    }
+
+  .row {
+    flex-direction: column;
+    padding: 0;
+  }
+
+}
+
+/**********************/
+
+@media screen and (max-width: 400px) {
+
+  .contactBox h1 {
+    padding: .5rem;
+    font-size: 2rem;
+    }
+
+}

@@ -43,7 +43,6 @@ padding: 4rem 0;
 
 /********************** My Image **************/
 .imgMe {
-  margin-right: 20%;
   border: 18px solid white;
   height: 550px;
   padding-top: 2rem;
@@ -78,7 +77,6 @@ padding: 4rem 0;
 @media screen and (max-width: 992px) {
 
   .imgMe {
-    margin-right: 15%;
     height: 375px;
   }
 
@@ -103,7 +101,6 @@ padding: 4rem 0;
   .imgMe {
   border: 12px solid white;
   height: 275px;
-  margin-right: 12%;
   }
 
   .bigName {
@@ -117,13 +114,26 @@ padding: 4rem 0;
 
   .homeSection {
   flex-direction: column;
-  
-  background-image: -webkit-linear-gradient(28deg, #839b97 54%, #fff 45%);
+  background-image: -webkit-linear-gradient(29deg, #839b97 54%, #fff 45%);
   }
 
   .imgMe {
     height: 300px;
     }
 
+    .bigName h1 {
+      padding-top: 0;
+    }
+
 }
 
+/**********************/
+
+@media screen and (max-width: 440px) {
+
+  .bigName {
+    font-size: 2rem;
+    width: 50%;
+  }
+
+}

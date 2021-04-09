@@ -100,10 +100,9 @@
   }
 
   .projectDivs div {
-    max-width: 18%;
+    max-width: 19%;
   }
 
-  /* .projectDivs div, */
   .projectDivs h2, 
   .projectDivs p
    {
@@ -113,7 +112,11 @@
 
   /************************/
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1024px) {
+
+  .projectDivs div {
+    max-width: 20%;
+  }
 
   .projImg {
     height: 100px;
@@ -150,29 +153,42 @@
 
 @media screen and (max-width: 768px) {
 
-  .projectDivs div {
-    max-width: 25%;
-    font-size: 0.9rem;
-    }
-
-    .projectDivs h2, 
-    .projectDivs p
-     {
-      padding: 0.2rem 0;
-    }
-}
-
- /************************/
-
- @media screen and (max-width: 600px) {
-
   .projectDivs {
-    flex-wrap: wrap;
+    margin-left: 22%;
     flex-direction: column;
   }
 
   .projectDivs div {
-    flex-grow: 2;
+    margin: 1rem;
+    max-width: 60%;
+  }
+
+  .projImg {
+    height: 100px;
+    width: 38%;
+    margin-left: 31%;
+  }
+
+  .tags p {
+    padding: 1rem;
+  }
+
+  .projectDivs h2 {
+    padding: .5rem;
+  }
+
+}
+
+ /************************/
+
+ @media screen and (max-width: 425px) {
+
+  .projectDivs {
+    margin-left: 9%;
+  }
+
+  .projectDivs div {
+    max-width: 75%;
   }
 
  }

@@ -69,3 +69,16 @@ visibility: visible;
     font-size: 1rem;
   }
 }
+
+/**********************/
+
+@media screen and (max-width: 440px) {
+
+  .skillSection img {                 
+    height: 90px;
+  }
+
+  .logos div p {
+    font-size: .8rem;
+  }
+}
