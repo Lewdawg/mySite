@@ -16,7 +16,7 @@
     padding: 1rem;
   } */
   
-  .projectDivs{
+  .projectDivs {
     margin: 1rem;
     padding: 1rem;
     display: flex;
@@ -100,6 +100,11 @@
     background-image: -webkit-linear-gradient(243deg, #839b97  50%, #c6b497 50%);
   }
 
+  .projectDivs {
+    margin: .5rem;
+    padding: .5rem;
+  }
+
   .projectDivs div {
     max-width: 18%;
   }
@@ -108,6 +113,23 @@
   .projectDivs h2, 
   .projectDivs p
    {
+    padding: .5rem;
+  }
+
+}
+
+@media screen and (max-width: 992px) {
+
+  .projectDivs {
+    margin: .5rem;
+    padding: .5rem;
+  }
+
+  .projImg {
+    height: 100px;
+  }
+
+  .tags {
     padding: .5rem;
   }
 

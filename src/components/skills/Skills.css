@@ -31,3 +31,14 @@ padding: 2.7rem;
 .logos div:hover p {
 visibility: visible;
 } 
+
+
+/********************** Responsiveness **************/
+
+@media screen and (max-width: 992px) {
+
+  .skillSection img {
+    height: 130px;
+  }
+
+}

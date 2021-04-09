@@ -46,5 +46,20 @@
       .arrows {
         height: 450px;
       }
+    }
+
+    @media screen and (max-width: 992px) {
+
+      .aboutSection {
+        padding: 2rem 0;
+      }
+
+      .aboutText {
+        font-size: 1.2rem;
+      }
+
+      .arrows {
+        height: 400px;
+      }
 
     }
