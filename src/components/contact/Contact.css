@@ -43,11 +43,11 @@
     height: 380px;
     margin: 3rem 13.4%;
   }
-
 }
   
+/**********************/
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 992px) {
 
   .contactSection {
     background-image: -webkit-linear-gradient(243deg, #c6b497  50%, #cfd3ce 50%);
@@ -56,6 +56,26 @@
   .row img{
     height: 70px;
   }
+}
 
+/**********************/
 
+@media screen and (max-width: 880px) {
+
+  .row h3 {
+    font-size: 1rem;
+  }
+}
+
+/**********************/
+
+@media screen and (max-width: 768px) {
+
+  .row img{
+    height: 60px;
+  }
+
+  .row h3 {
+    font-size: .9rem;
+  }
 }

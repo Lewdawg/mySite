@@ -15,10 +15,6 @@
       padding: 1rem;
     }
     
-    /* .arrows {
-      height: 100%;
-    } */
-    
     .aboutText {
       font-size: 1.5rem;
       width: 50%;
@@ -48,18 +44,48 @@
       }
     }
 
+    /**********************/
+
     @media screen and (max-width: 992px) {
 
       .aboutSection {
+        text-align: center;
+        flex-direction: column-reverse;
         padding: 2rem 0;
-      }
-
-      .aboutText {
-        font-size: 1.2rem;
       }
 
       .arrows {
         height: 400px;
       }
 
+      .aboutText {
+        width: 70%;
+      }
     }
+
+    /**********************/
+
+    @media screen and (max-width: 880px) {
+
+      .aboutSection {
+        text-align: center;
+        flex-direction: column-reverse;
+        padding: 1rem;
+      }
+
+      .arrows {
+        height: 350px;
+      }
+
+      .aboutText {
+        font-size: 1.4rem;
+      }
+
+      .aboutSection div {
+        margin: .5rem;
+        padding: .5rem;
+      }
+
+    }
+
+    /**********************/

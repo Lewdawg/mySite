@@ -115,8 +115,9 @@
    {
     padding: .5rem;
   }
-
 }
+
+  /************************/
 
 @media screen and (max-width: 992px) {
 
@@ -131,6 +132,29 @@
 
   .tags {
     padding: .5rem;
+  }
+}
+
+  /************************/
+
+@media screen and (max-width: 880px) {
+
+  .projectDivs div {
+    /* font-size: 100%; */
+    font-size: 1rem;
+    }
+
+    .projImg {
+      height: 70px;
+      width: 50%;
+      margin-left: 23%;
+    }
+
+  /* .projectDivs div, */
+  .projectDivs h2, 
+  .projectDivs p
+   {
+    padding: .3rem;
   }
 
 }
