@@ -9,12 +9,12 @@
   font-size: 3rem;
 }
 
-.skillSection img {
+.skillSection img {                 /* Size of language logos */
   height: 150px;
 }
 
 .logos {
-display: flex;
+display: flex;                      /* Container where logos are located */
 flex-direction: row;
 justify-content: space-around;
 
@@ -40,5 +40,32 @@ visibility: visible;
   .skillSection img {
     height: 130px;
   }
+}
 
+/**********************/
+
+@media screen and (max-width: 768px) {
+
+  .logos div p {
+    visibility: visible;
+    font-size: 1.2rem;
+  }
+
+  .logos {
+    padding-top: 2rem;
+    }
+    
+}
+
+/**********************/
+
+@media screen and (max-width: 600px) {
+
+  .skillSection img {                 
+    height: 110px;
+  }
+
+  .logos div p {
+    font-size: 1rem;
+  }
 }

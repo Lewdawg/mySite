@@ -1,7 +1,7 @@
 .projectsSection {
-    background-image: -webkit-linear-gradient(248deg, #839b97  50%, #c6b497 50%);
-    color: white;
-    margin-bottom: 4rem;
+  background-image: -webkit-linear-gradient(248deg, #839b97  50%, #c6b497 50%);
+  color: white;
+  margin-bottom: 4rem;
   padding-bottom: 1rem;
   }
   
@@ -11,20 +11,15 @@
     font-size: 3rem;
   }
   
-  /* .projectsSection div {
-    margin: 1rem;
-    padding: 1rem;
-  } */
-  
   .projectDivs {
-    margin: 1rem;
+    margin: 1rem;                             /* Div where all 'cards' are located */
     padding: 1rem;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
   
-  .projectDivs div {
+  .projectDivs div {                          /* Singular 'card' */
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -37,19 +32,18 @@
   box-shadow: 3px 3px 5px white;
   }
 
-  .projImg {
-    /* text-align: center; */
+  .projImg {                                /* Images inside of card */ 
     height: 130px;
     width: 55%;
     margin-left: 22%;
   }
   
   .projectDivs a {
-   margin-top: auto;           /* Position Github logo at bottom of card */
+   margin-top: auto;                       /* Position Github logo at bottom of card */
   }
   
   .tags {
-    display: flex;
+    display: flex;                         /* Languages used in Project */
     flex-direction: row;
     flex-wrap: wrap;
     padding: 1rem;
@@ -121,11 +115,6 @@
 
 @media screen and (max-width: 992px) {
 
-  .projectDivs {
-    margin: .5rem;
-    padding: .5rem;
-  }
-
   .projImg {
     height: 100px;
   }
@@ -135,12 +124,11 @@
   }
 }
 
-  /************************/
+/************************/
 
 @media screen and (max-width: 880px) {
 
   .projectDivs div {
-    /* font-size: 100%; */
     font-size: 1rem;
     }
 
@@ -150,11 +138,43 @@
       margin-left: 23%;
     }
 
-  /* .projectDivs div, */
+
   .projectDivs h2, 
   .projectDivs p
    {
     padding: .3rem;
   }
-
 }
+
+ /************************/
+
+@media screen and (max-width: 768px) {
+
+  .projectDivs div {
+    max-width: 25%;
+    font-size: 0.9rem;
+    }
+
+    .projectDivs h2, 
+    .projectDivs p
+     {
+      padding: 0.2rem 0;
+    }
+}
+
+ /************************/
+
+ @media screen and (max-width: 600px) {
+
+  .projectDivs {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .projectDivs div {
+    flex-grow: 2;
+  }
+
+ }
+
+ 

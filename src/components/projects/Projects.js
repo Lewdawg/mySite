@@ -1,7 +1,6 @@
 import React from 'react'
 import './Projects.css'
 
-// import ProjectCard from './card/ProjectCard'
 
 //Images
 import laptop from '../../img/laptop2.png'
@@ -20,7 +19,6 @@ function Projects() {
 
             <h1>PROJECTS</h1>
 
-            {/* <ProjectCard /> */}
 
             <div className="projectDivs">
 
