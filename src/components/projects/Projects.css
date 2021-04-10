@@ -26,7 +26,7 @@
   
   text-align: center;
   border: 2px solid white;
-  max-width: 15%;
+  max-width: 16%;
   font-size: 110%;
   color: #34626c;
   box-shadow: 3px 3px 5px white;
@@ -67,7 +67,7 @@
 
   /********************** Responsiveness **************/
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1900px) {
 
 .projectDivs div {
   max-width: 15%;
@@ -97,11 +97,6 @@
 
 .projectDivs div {
   max-width: 18%;
-}
-
-.projectDivs h2, 
-.projectDivs p { 
-  padding: .8rem;
 }
 }
 

@@ -55,7 +55,7 @@ padding: 4rem 0;
 
 /********************** Responsiveness **************/
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1900px) {
 
 .homeSection {
   background-image: -webkit-linear-gradient(75deg, #839b97 50%, #fff 50%);

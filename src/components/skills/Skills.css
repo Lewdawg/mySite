@@ -35,7 +35,7 @@ visibility: visible;
 
 /********************** Responsiveness **************/
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1900px) {
 
 .skillSection h1 {
   padding-top: 3rem;
@@ -78,6 +78,10 @@ visibility: visible;
 
 @media screen and (max-width: 600px) {
 
+.logos {
+  flex-wrap: wrap;
+}
+
 .skillSection img {                 
   height: 110px;
 }
@@ -90,10 +94,6 @@ visibility: visible;
 /**********************/
 
 @media screen and (max-width: 440px) {
-
-.logos {
-  flex-wrap: wrap;
-}
 
 .skillSection img {                 
   height: 90px;

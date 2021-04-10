@@ -6,7 +6,7 @@
   justify-content: space-around;
   align-items: center;
 
-  background-image: -webkit-linear-gradient(246.5deg, #839b97 50%, #cfd3ce 50%);   
+  background-image: -webkit-linear-gradient(247deg, #839b97 50%, #cfd3ce 50%);   
   color: #34626c;
 }
     
@@ -28,7 +28,7 @@
 
 /********************** Responsiveness **************/
 
-@media screen and (min-width: 1441px) {
+@media screen and (min-width: 1900px) {
 
 .aboutText {
   font-size: 2rem;
@@ -47,7 +47,7 @@
 
 .aboutSection {
   padding: 4rem 0;
-  background-image: -webkit-linear-gradient(242deg, #839b97 50%, #cfd3ce 50%);   
+  background-image: -webkit-linear-gradient(240deg, #839b97 50%, #cfd3ce 50%);   
 }
 
 .aboutText {
@@ -65,7 +65,7 @@
 .aboutSection {
   text-align: center;
   flex-direction: column-reverse;
-  /* padding: 2rem 0; */
+  background-image: -webkit-linear-gradient(238deg, #839b97 50%, #cfd3ce 50%); 
 }
 
 .aboutText {
@@ -73,7 +73,7 @@
 }
 
 .arrows {
-  height: 400px;
+  height: 375px;
 }
 }
 
@@ -106,6 +106,10 @@
 /**********************/
 
 @media screen and (max-width: 600px) {
+
+.aboutSection {
+  background-image: -webkit-linear-gradient(215deg, #839b97 50%, #cfd3ce 50%); 
+}
 
 .aboutText {
   font-size: 1.1rem;
