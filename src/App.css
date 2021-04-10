@@ -59,7 +59,6 @@ padding: 4rem 0;
 
 .homeSection {
   background-image: -webkit-linear-gradient(75deg, #839b97 50%, #fff 50%);
-
 }
 
 .bigName {
@@ -75,58 +74,59 @@ padding: 4rem 0;
 
 @media screen and (max-width: 1300px) {
 
-  .homeSection {
-    background-image: -webkit-linear-gradient(69.2deg, #839b97 50%, #fff 50%);
-  }
+.homeSection {
+  background-image: -webkit-linear-gradient(69.2deg, #839b97 50%, #fff 50%);
+}
 
-  .imgMe {
-    height: 455px;
-    padding-top: 1.5rem;
-  }
+.imgMe {
+  height: 455px;
+  padding-top: 1.5rem;
+}
 
-  .bigName {
-    font-size: 4rem;
-    width: 52%;
-  }
+.bigName {
+  font-size: 4rem;
+  width: 52%;
+}
 }
 
 /**********************/
 
 @media screen and (max-width: 992px) {
 
-  .imgMe {
-    height: 375px;
-  }
+.imgMe {
+  height: 375px;
+}
 
-  .bigName {
-    font-size: 3.3rem;
-  }
+.bigName {
+  font-size: 3.3rem;
+}
 }
 
 /**********************/
 
 @media screen and (max-width: 835px) {
 
-  .bigName {
-    font-size: 3rem;
-  }
-  .imgDiv {
-    width: 50%;
-  }
+.bigName {
+  font-size: 3rem;
+}
+
+.imgDiv {
+  width: 50%;
+}
 }
 
 /**********************/
 
 @media screen and (max-width: 768px) {
 
-  .imgMe {
+.imgMe {
   border: 12px solid white;
   height: 275px;
-  }
+}
 
-  .bigName {
+.bigName {
   font-size: 2.4rem;
-  }
+}
 }
 
 /**********************/
@@ -135,7 +135,7 @@ padding: 4rem 0;
 
 .homeSection {
   flex-direction: column;
-  background-image: -webkit-linear-gradient(29deg, #839b97 54%, #fff 45%);
+  background-image: -webkit-linear-gradient(35deg, #839b97 54%, #fff 45%);
 }
 
 .imgMe {

@@ -37,10 +37,10 @@ visibility: visible;
 
 @media screen and (min-width: 1441px) {
 
-  .skillSection h1 {
-    padding-top: 3rem;
-    font-size: 4.5rem;
-  }
+.skillSection h1 {
+  padding-top: 3rem;
+  font-size: 4.5rem;
+}
 
 .skillSection img {                 
   height: 200px;
@@ -55,54 +55,51 @@ visibility: visible;
 
 @media screen and (max-width: 992px) {
 
-  .skillSection img {
-    height: 130px;
-  }
+.skillSection img {
+  height: 130px;
+}
 }
 
 /**********************/
 
 @media screen and (max-width: 768px) {
 
-  .logos div p {
-    visibility: visible;
-    font-size: 1.2rem;
-  }
+.logos div p {
+  visibility: visible;
+  font-size: 1.2rem;
+}
 
-  .logos {
-    padding-top: 2rem;
-    }
-    
+.logos {
+  padding-top: 2rem;
+}    
 }
 
 /**********************/
 
 @media screen and (max-width: 600px) {
 
-  .skillSection img {                 
-    height: 110px;
-  }
+.skillSection img {                 
+  height: 110px;
+}
 
-  .logos div p {
-    font-size: 1rem;
-  }
+.logos div p {
+  font-size: 1rem;
+}
 }
 
 /**********************/
 
 @media screen and (max-width: 440px) {
 
-  .logos {
-    flex-wrap: wrap;
-  }
-
-  .skillSection img {                 
-    height: 90px;
-  }
-
-  .logos div p {
-    font-size: .8rem;
-  }
+.logos {
+  flex-wrap: wrap;
 }
 
-/**********************/
+.skillSection img {                 
+  height: 90px;
+}
+
+.logos div p {
+  font-size: .8rem;
+}
+}

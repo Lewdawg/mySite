@@ -1,30 +1,30 @@
 .aboutSection {
-    text-align: left;
-    padding: 6rem 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    
-    background-image: -webkit-linear-gradient(246.5deg, #839b97 50%, #cfd3ce 50%);   
-    color: #34626c;
+  text-align: left;
+  padding: 6rem 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  background-image: -webkit-linear-gradient(246.5deg, #839b97 50%, #cfd3ce 50%);   
+  color: #34626c;
 }
     
-  .aboutSection div {
-      margin: 1rem;
-      padding: 1rem;
-  }
-    
-  .aboutText {
-      font-size: 1.5rem;
-      width: 50%;
-  }
-    
-  .aboutText h1,
-  .aboutText h2,
-  .aboutText p {
-      padding: 1rem 2.2rem;
-  }
+/* .aboutSection div {
+  margin: 1rem;
+  padding: 1rem;
+} */
+
+.aboutText {
+  font-size: 1.5rem;
+  width: 50%;
+}
+
+.aboutText h1,
+.aboutText h2,
+.aboutText p {
+  padding: 1rem 2.2rem;
+}
 
 /********************** Responsiveness **************/
 
@@ -45,74 +45,62 @@
 
 @media screen and (max-width: 1300px) {
 
-  .aboutSection {
-    padding: 4rem 0;
-    background-image: -webkit-linear-gradient(242deg, #839b97 50%, #cfd3ce 50%);   
-  }
+.aboutSection {
+  padding: 4rem 0;
+  background-image: -webkit-linear-gradient(242deg, #839b97 50%, #cfd3ce 50%);   
+}
 
-  .aboutText {
-    font-size: 1.3rem;
-  }
+.aboutText {
+  font-size: 1.3rem;
+}
 
-  .arrows {
-    height: 450px;
-  }
+.arrows {
+  height: 450px;
+}
 }
 
 /*********************/
 @media screen and (max-width: 992px) {
 
-  .aboutSection {
-    text-align: center;
-    flex-direction: column-reverse;
-    padding: 2rem 0;
-  }
+.aboutSection {
+  text-align: center;
+  flex-direction: column-reverse;
+  /* padding: 2rem 0; */
+}
 
-  .aboutText {
-    width: 70%;
-  }
+.aboutText {
+  width: 75%;
+}
 
-  .arrows {
-    height: 400px;
-  }
+.arrows {
+  height: 400px;
+}
 }
 
 /**********************/
 
 @media screen and (max-width: 880px) {
 
-  .aboutSection {
-    text-align: center;
-    flex-direction: column-reverse;
-    padding: 1rem;
-  }
+.aboutText {
+  font-size: 1.4rem;
+}
 
-  .aboutText {
-    font-size: 1.4rem;
-  }
-
-  .aboutSection div {
-    margin: .5rem;
-    padding: .5rem;
-  }
-
-  .arrows {
-    height: 350px;
-  }
-
+.arrows {
+  height: 350px;
+}
 }
 
 /**********************/
 
 @media screen and (max-width: 768px) {
 
-  .aboutText {
-    font-size: 1.3rem;
-  }
+.aboutText {
+  font-size: 1.3rem;
+}
 
-  .arrows {
-    height: 300px;
-  }
+.arrows {
+  height: 300px;
+}
 }
 
 /**********************/
@@ -132,16 +120,12 @@
 
 @media screen and (max-width: 425px) {
 
-  .aboutText {
-    font-size: .9rem;
-   }
+.aboutText {
+  font-size: .9rem;
+}
 
-  .arrows {
-    height: 190px;
-  }
-
-  .aboutText p {
-    padding: .8rem 1rem;
+.arrows {
+  height: 190px;
 }
 }
 
@@ -149,11 +133,7 @@
 
 @media screen and (max-width: 375px) {
 
-  .aboutText {
-    font-size: .8rem;
-   }
-
-  .arrows {
-    height: 150px;
-  }
+.arrows {
+  height: 150px;
+}
 }
