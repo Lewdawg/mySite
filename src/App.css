@@ -55,6 +55,24 @@ padding: 4rem 0;
 
 /********************** Responsiveness **************/
 
+@media screen and (min-width: 1441px) {
+
+.homeSection {
+  background-image: -webkit-linear-gradient(75deg, #839b97 50%, #fff 50%);
+
+}
+
+.bigName {
+  font-size: 7rem;
+}
+
+.imgMe {
+  border: 30px solid white;
+  height: 700px;
+  padding-top: 3rem;
+}
+}
+
 @media screen and (max-width: 1300px) {
 
   .homeSection {
@@ -92,6 +110,9 @@ padding: 4rem 0;
   .bigName {
     font-size: 3rem;
   }
+  .imgDiv {
+    width: 50%;
+  }
 }
 
 /**********************/
@@ -112,28 +133,65 @@ padding: 4rem 0;
 
 @media screen and (max-width: 600px) {
 
-  .homeSection {
+.homeSection {
   flex-direction: column;
   background-image: -webkit-linear-gradient(29deg, #839b97 54%, #fff 45%);
-  }
+}
 
-  .imgMe {
-    height: 300px;
-    }
+.imgMe {
+  height: 300px;
+}
 
-    .bigName h1 {
-      padding-top: 0;
-    }
+.bigName {
+  font-size: 2.2rem;
+  width: 51%;
+}
 
+.bigName h1 {
+  padding-top: 0;
+}
+
+.homeSection div {
+  margin: 1rem;
+}
 }
 
 /**********************/
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 450px) {
 
-  .bigName {
-    font-size: 2rem;
-    width: 50%;
-  }
+.imgMe {
+  height: 275px;
+}
 
+.bigName {
+  font-size: 1.9rem;
+  padding-left: 3%;
+}
+}
+
+/**********************/
+
+@media screen and (max-width: 425px) {
+
+.imgMe {
+  height: 250px;
+}
+  
+.bigName {
+  font-size: 1.6rem;
+}
+}
+
+/**********************/
+
+@media screen and (max-width: 375px) {
+
+.imgMe {
+  height: 225px;
+}
+    
+.bigName {
+  font-size: 1.5rem;
+}
 }

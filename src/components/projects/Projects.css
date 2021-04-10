@@ -67,130 +67,151 @@
 
   /********************** Responsiveness **************/
 
-  @media screen and (max-width: 1450px) {
+@media screen and (min-width: 1441px) {
 
-    .projectsSection {
-      background-image: -webkit-linear-gradient(244deg, #839b97  50%, #c6b497 50%);
-    }
+.projectDivs div {
+  max-width: 15%;
+  font-size: 1.7rem;
+}
 
-    .projectDivs div {
-      max-width: 18%;
-    }
+.projectsSection h1 {
+  padding: 3rem;
+  font-size: 4.5rem;
+}
 
-    /* .projectDivs div, */
-    .projectDivs h2, 
-    .projectDivs p
-     {
-      padding: .8rem;
-    }
+.projImg {                               
+  height: 160px;
+  width: 50%;
+  margin-left: 25%;
+}
+}
+  
+/**********************/
+  
 
-  }
+@media screen and (max-width: 1450px) {
 
-  /************************/
+.projectsSection {
+  background-image: -webkit-linear-gradient(244deg, #839b97  50%, #c6b497 50%);
+}
+
+.projectDivs div {
+  max-width: 18%;
+}
+
+.projectDivs h2, 
+.projectDivs p { 
+  padding: .8rem;
+}
+}
+
+/************************/
 
 @media screen and (max-width: 1300px) {
 
-  .projectsSection {
-    background-image: -webkit-linear-gradient(243deg, #839b97  50%, #c6b497 50%);
-  }
-
-  .projectDivs {
-    margin: .5rem;
-    padding: .5rem;
-  }
-
-  .projectDivs div {
-    max-width: 19%;
-  }
-
-  .projectDivs h2, 
-  .projectDivs p
-   {
-    padding: .5rem;
-  }
+.projectsSection {
+  background-image: -webkit-linear-gradient(243deg, #839b97  50%, #c6b497 50%);
 }
 
-  /************************/
+.projectDivs {
+  margin: .5rem;
+  padding: .5rem;
+}
+
+.projectDivs div {
+  max-width: 19%;
+}
+
+.projectDivs h2, 
+.projectDivs p {
+  padding: .5rem;
+}
+}
+
+/************************/
 
 @media screen and (max-width: 1024px) {
 
-  .projectDivs div {
-    max-width: 20%;
-  }
+.projectDivs div {
+  max-width: 20%;
+}
 
-  .projImg {
-    height: 100px;
-  }
+.projImg {
+  height: 100px;
+}
 
-  .tags {
-    padding: .5rem;
-  }
+.tags {
+  padding: .5rem;
+}
 }
 
 /************************/
 
 @media screen and (max-width: 880px) {
 
-  .projectDivs div {
-    font-size: 1rem;
-    }
-
-    .projImg {
-      height: 70px;
-      width: 50%;
-      margin-left: 23%;
-    }
-
-
-  .projectDivs h2, 
-  .projectDivs p
-   {
-    padding: .3rem;
-  }
+.projectDivs div {
+  font-size: 1rem;
 }
 
- /************************/
+.projImg {
+  height: 70px;
+  width: 50%;
+  margin-left: 23%;
+}
+
+.projectDivs h2, 
+.projectDivs p {
+  padding: .3rem;
+}
+}
+
+/************************/
 
 @media screen and (max-width: 768px) {
 
-  .projectDivs {
-    margin-left: 22%;
-    flex-direction: column;
-  }
+.projectDivs {
+  margin-left: 22%;
+  flex-direction: column;
+}
 
-  .projectDivs div {
-    margin: 1rem;
-    max-width: 60%;
-  }
+.projectDivs div {
+  margin: 1rem;
+  max-width: 60%;
+}
 
-  .projImg {
-    height: 100px;
-    width: 38%;
-    margin-left: 31%;
-  }
+.projImg {
+  height: 100px;
+  width: 38%;
+  margin-left: 31%;
+}
 
-  .tags p {
-    padding: 1rem;
-  }
+.tags p {
+  padding: 1rem;
+}
 
-  .projectDivs h2 {
-    padding: .5rem;
-  }
+.projectDivs h2 {
+  padding: .5rem;
+}
+}
 
+/************************/
+
+@media screen and (max-width: 425px) {
+
+.projectDivs {
+  margin-left: 9%;
+}
+
+.projectDivs div {
+  max-width: 75%;
+}
 }
 
  /************************/
 
- @media screen and (max-width: 425px) {
+ @media screen and (max-width: 350px) {
 
-  .projectDivs {
-    margin-left: 9%;
-  }
-
-  .projectDivs div {
-    max-width: 75%;
-  }
-
- }
-
- 
+.projectDivs {
+  margin-left: 6%;
+}
+} 

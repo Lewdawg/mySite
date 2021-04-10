@@ -1,102 +1,120 @@
 .contactSection {
-    text-align: center;
-    padding: 3rem;
+  text-align: center;
+  padding: 3rem;
     
-    color: white ;
-    background-image: -webkit-linear-gradient(252deg, #c6b497  50%, #cfd3ce 50%);
-    }
+  color: white ;
+  background-image: -webkit-linear-gradient(252deg, #c6b497  50%, #cfd3ce 50%);
+}
     
-    .contactBox h1 {
-    padding: 2rem;
-    font-size: 3rem;
-    }
+.contactBox h1 {
+  padding: 2rem;
+  font-size: 3rem;
+}
     
-    .contactBox {
-      height: 400px;
-      margin: 3rem 14.4%;
-      
-      background-color: #34626c;
-    }
+.contactBox {
+  height: 400px;
+  margin: 3rem 14.4%;
+
+  background-color: #34626c;
+}
     
-    .row {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding-top: 2.5rem;
+}
     
-      padding-top: 2.5rem;
-    }
-    
-    .row img{
-      height: 90px;
-    }
+.row img{
+  height: 90px;
+}
     
 
 /********************** Responsiveness **************/
 
+@media screen and (min-width: 1441px) {
+
+.contactBox h1 {
+  padding: 1rem;
+  font-size: 3.5rem;
+}
+
+.row img{
+  height: 130px;
+}
+
+.row h3 {
+  font-size: 1.7rem;
+}
+}
+
+/**********************/
+
 @media screen and (max-width: 1300px) {
 
-  .contactSection {
-    background-image: -webkit-linear-gradient(247deg, #c6b497  50%, #cfd3ce 50%);
-  }
+.contactSection {
+  background-image: -webkit-linear-gradient(247deg, #c6b497  50%, #cfd3ce 50%);
+}
 
-  .contactBox {
-    height: 380px;
-    margin: 3rem 13.4%;
-  }
+.contactBox {
+  height: 380px;
+  margin: 3rem 13.4%;
+}
 }
   
 /**********************/
 
 @media screen and (max-width: 992px) {
 
-  .contactSection {
-    background-image: -webkit-linear-gradient(243deg, #c6b497  50%, #cfd3ce 50%);
-  }
+.contactSection {
+  background-image: -webkit-linear-gradient(243deg, #c6b497  50%, #cfd3ce 50%);
+}
 
-  .row img{
-    height: 70px;
-  }
+.row img{
+  height: 70px;
+}
 }
 
 /**********************/
 
 @media screen and (max-width: 880px) {
 
-  .row h3 {
-    font-size: 1rem;
-  }
+.row h3 {
+  font-size: 1rem;
+}
 }
 
 /**********************/
 
 @media screen and (max-width: 768px) {
 
-  .row img{
-    height: 60px;
-  }
+.row img{
+  height: 60px;
+}
 
-  .row h3 {
-    font-size: .6rem;
-  }
+.row h3 {
+  font-size: .6rem;
+}
 }
 
 /**********************/
 
 @media screen and (max-width: 600px) {
 
-  .contactBox {
-    height: 415px;
-  }
+.contactBox {
+  height: 415px;
+}
 
-  .contactBox h1 {
-    padding: 1rem;
-    font-size: 2.5rem;
-    }
+.contactBox h1 {
+  padding: 1rem;
+  font-size: 2.5rem;
+}
 
-  .row {
-    flex-direction: column;
-    padding: 0;
-  }
+.row {
+  flex-direction: column;
+  padding: 0;
+}
 
 }
 
@@ -104,9 +122,17 @@
 
 @media screen and (max-width: 400px) {
 
-  .contactBox h1 {
-    padding: .5rem;
-    font-size: 2rem;
-    }
+.contactBox h1 {
+  padding: .5rem;
+  font-size: 2rem;
+}
+}
 
+/**********************/
+
+@media screen and (max-width: 330px) {
+
+.contactBox h1 {
+  font-size: 1.5rem;
+}
 }
