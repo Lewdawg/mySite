@@ -8,7 +8,7 @@ function Navbar() {
 
         <div className="navbar">
 
-            <div class="dropdown" style={{ 'right': '0' }}>
+            <div class="dropdown">
 
                 <button class="dropbtn">Menu</button>
 
