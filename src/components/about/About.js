@@ -23,7 +23,7 @@ function About() {
 
                 <h2>Hi am <b>Lewes</b>, an inspiring Web Developer.</h2>
 
-                <p>In 2020 I decided to take a huge leap and changed careers and start again as a Web Developer. The past year I have been studying with the Digital Career Institute (DCI) to achieve this goal. I am from the UK and have been living in Germany for the past few years.</p>
+                <p>In 2020 I decided to take a huge leap and changed careers to start again as a Web Developer. The past year I have been studying with the Digital Career Institute (DCI) to achieve this goal. I am from the UK and have been living in Germany for the past few years.</p>
 
                 <p>I have a background in construction and have completed an apprenticeship and worked as a welder for many years in several different countries. Beyond my welding experiences I also founded and managed my own cleaning/personal assistant company.</p>
 
