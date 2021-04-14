@@ -54,7 +54,7 @@ padding: 4rem 0;
 
 /********************** Responsiveness **************/
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 2000px) {
 
 .homeSection {
   background-image: -webkit-linear-gradient(75deg, #839b97 50%, #fff 50%);
@@ -70,6 +70,23 @@ padding: 4rem 0;
   padding-top: 3rem;
 }
 }
+
+/**********************/
+
+@media screen and (max-width: 1999px) {
+
+.homeSection {
+  background-image: -webkit-linear-gradient(73deg, #839b97 50%, #fff 50%);
+}
+
+.imgMe {
+  border: 25px solid white;
+  height: 650px;
+  padding-top: 2.5rem;
+}
+}
+
+/**********************/
 
 @media screen and (max-width: 1300px) {
 

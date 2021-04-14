@@ -27,13 +27,16 @@
 
 /********************** Responsiveness **************/
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 2000px) {
 
 .navbar a {
   padding: 4rem;
   font-size: 2.6rem;
 }
 }
+
+/**********************/
+
 
 /**********************/
 
