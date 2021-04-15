@@ -26,7 +26,7 @@ function Projects() {
                     <img src={todo} alt="" className='projImg' />
 
                     <h2>Todo App</h2>
-                    <p>Stylish todo App to keep track of tasks. Options to add,edit and remove tasks. New tasks get assigned predefined colors. Made with ReactJS.</p>
+                    <p>Stylish todo App to keep track of tasks. Options to add, edit and remove tasks. New tasks get assigned predefined colors. Made with ReactJS.</p>
 
                     <section className="tags">
                         <p>HTML5</p>
@@ -41,7 +41,7 @@ function Projects() {
                     <img src={smoothie} alt="" className='projImg' />
 
                     <h2>Smoothies</h2>
-                    <p>User's must login to see recipes. Data is saved on database. Authentication and Authorization used when login & signing up.</p>
+                    <p>Users must login to see recipes. Data is saved on database. Authentication and Authorization used when login & signing up.</p>
 
                     <section className="tags">
                         <p>HTML5</p>
@@ -59,7 +59,8 @@ function Projects() {
                     <img src={laptop} alt="" className='projImg' />
 
                     <h2>Laptop Shop</h2>
-                    <p>App where user, must have an account to see products. If no account can not access product information. Items can be added and viewed.</p>
+                    <p>App where users must have an account to see products. Product information cannot be accessed without
+                    an account. Products can be added and viewed.</p>
 
                     <section className="tags">
                         <p>HTML5</p>
