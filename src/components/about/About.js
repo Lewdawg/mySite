@@ -21,7 +21,7 @@ function About() {
 
                 <h1>ABOUT</h1>
 
-                <h2>Hi am <b>Lewes</b>, an inspiring Web Developer.</h2>
+                <h2>Hi, I am <b>Lewes</b>, an inspiring Web Developer.</h2>
 
                 <p>In 2020 I decided to take a huge leap and changed careers to start again as a Web Developer. The past year I have been studying with the Digital Career Institute (DCI) to achieve this goal. I am from the UK and have been living in Germany for the past few years.</p>
 
