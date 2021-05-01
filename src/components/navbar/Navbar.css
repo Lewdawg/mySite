@@ -79,12 +79,16 @@
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: #cfd3ce;
+  /* background-color: #cfd3ce;
   border-radius: 5%;
   color: white;
   padding: .5rem 1rem;
   font-size: 1.2rem;
-  border: none;
+  border: none; */
+  width: 35px;
+  height: 3px;                
+  background-color: white;
+  margin: 6px 0;
 }
 
 
@@ -100,7 +104,7 @@
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
-  margin-left: -45px;
+  margin-left: -83px;
 }
 
 

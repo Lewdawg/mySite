@@ -10,7 +10,9 @@ function Navbar() {
 
             <div class="dropdown">
 
-                <button class="dropbtn">Menu</button>
+                <div class="dropbtn"></div>
+                <div class="dropbtn"></div>
+                <div class="dropbtn"></div>
 
                 <div class="dropdown-content">
 
